@@ -1,0 +1,5070 @@
+{
+  "General Knowledge": [
+    {
+      "question": "What is the capital city of France?",
+      "correct": "Paris",
+      "answers": [
+        "Paris",
+        "Lyon",
+        "Marseille",
+        "Bordeaux"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many days are in a leap year?",
+      "correct": "366",
+      "answers": [
+        "365",
+        "366",
+        "364",
+        "367"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What colour is the sky on a clear day?",
+      "correct": "Blue",
+      "answers": [
+        "Blue",
+        "Green",
+        "Grey",
+        "White"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many sides does a hexagon have?",
+      "correct": "6",
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "correct": "Pacific Ocean",
+      "answers": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which planet is closest to the Sun?",
+      "correct": "Mercury",
+      "answers": [
+        "Venus",
+        "Mars",
+        "Mercury",
+        "Earth"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many continents are there on Earth?",
+      "correct": "7",
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "correct": "H2O",
+      "answers": [
+        "HO",
+        "H2O",
+        "H2O2",
+        "OH"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which animal is known as the King of the Jungle?",
+      "correct": "Lion",
+      "answers": [
+        "Tiger",
+        "Elephant",
+        "Lion",
+        "Cheetah"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many hours are in a day?",
+      "correct": "24",
+      "answers": [
+        "12",
+        "20",
+        "24",
+        "48"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the longest river in the world?",
+      "correct": "Nile",
+      "answers": [
+        "Amazon",
+        "Nile",
+        "Yangtze",
+        "Mississippi"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "medium"
+    },
+    {
+      "question": "In what year did the Titanic sink?",
+      "correct": "1912",
+      "answers": [
+        "1905",
+        "1912",
+        "1918",
+        "1920"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the smallest country in the world by area?",
+      "correct": "Vatican City",
+      "answers": [
+        "Monaco",
+        "San Marino",
+        "Vatican City",
+        "Liechtenstein"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which element has the chemical symbol 'Au'?",
+      "correct": "Gold",
+      "answers": [
+        "Silver",
+        "Gold",
+        "Aluminium",
+        "Copper"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "medium"
+    },
+    {
+      "question": "How many bones are in the adult human body?",
+      "correct": "206",
+      "answers": [
+        "196",
+        "206",
+        "216",
+        "226"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "correct": "Diamond",
+      "answers": [
+        "Quartz",
+        "Graphite",
+        "Diamond",
+        "Sapphire"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which gas do plants absorb from the atmosphere during photosynthesis?",
+      "correct": "Carbon dioxide",
+      "answers": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the speed of light approximately?",
+      "correct": "300,000 km/s",
+      "answers": [
+        "150,000 km/s",
+        "300,000 km/s",
+        "500,000 km/s",
+        "1,000,000 km/s"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which country has the largest population in the world?",
+      "correct": "India",
+      "answers": [
+        "China",
+        "India",
+        "USA",
+        "Indonesia"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the most spoken language in the world by native speakers?",
+      "correct": "Mandarin Chinese",
+      "answers": [
+        "English",
+        "Spanish",
+        "Mandarin Chinese",
+        "Hindi"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the Fibonacci sequence named after?",
+      "correct": "Leonardo of Pisa (Fibonacci)",
+      "answers": [
+        "Leonardo of Pisa (Fibonacci)",
+        "A Roman emperor",
+        "A Greek philosopher",
+        "An Arab mathematician"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which two elements make up water?",
+      "correct": "Hydrogen and Oxygen",
+      "answers": [
+        "Hydrogen and Nitrogen",
+        "Carbon and Oxygen",
+        "Hydrogen and Oxygen",
+        "Helium and Oxygen"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Meissner effect associated with?",
+      "correct": "Superconductivity",
+      "answers": [
+        "Magnetism in iron",
+        "Superconductivity",
+        "Radioactive decay",
+        "Quantum entanglement"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "hard"
+    },
+    {
+      "question": "The Voynich manuscript is written in what?",
+      "correct": "An unknown undeciphered script",
+      "answers": [
+        "Medieval Latin",
+        "An unknown undeciphered script",
+        "Ancient Hebrew",
+        "Archaic Greek"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Dunning-Kruger effect?",
+      "correct": "A cognitive bias where people with low competence overestimate their ability",
+      "answers": [
+        "A bias where experts underestimate others",
+        "A cognitive bias where people with low competence overestimate their ability",
+        "A memory distortion effect",
+        "A social conformity phenomenon"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which country has won the most Nobel Prizes per capita?",
+      "correct": "Switzerland",
+      "answers": [
+        "United States",
+        "Sweden",
+        "Switzerland",
+        "United Kingdom"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does the Latin phrase 'cogito ergo sum' mean?",
+      "correct": "I think therefore I am",
+      "answers": [
+        "To err is human",
+        "I think therefore I am",
+        "Knowledge is power",
+        "Time flies"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the only metal that is liquid at room temperature?",
+      "correct": "Mercury",
+      "answers": [
+        "Gallium",
+        "Mercury",
+        "Caesium",
+        "Bromine"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "hard"
+    },
+    {
+      "question": "In which city is the International Court of Justice located?",
+      "correct": "The Hague",
+      "answers": [
+        "Brussels",
+        "Geneva",
+        "The Hague",
+        "Vienna"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the half-life of Carbon-14?",
+      "correct": "5,730 years",
+      "answers": [
+        "1,000 years",
+        "5,730 years",
+        "10,000 years",
+        "50,000 years"
+      ],
+      "category": "General Knowledge",
+      "difficulty": "hard"
+    }
+  ],
+  "Books": [
+    {
+      "question": "Who wrote 'Harry Potter and the Philosopher's Stone'?",
+      "correct": "J.K. Rowling",
+      "answers": [
+        "J.K. Rowling",
+        "Roald Dahl",
+        "C.S. Lewis",
+        "Enid Blyton"
+      ],
+      "category": "Books",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the name of the whale in 'Moby Dick'?",
+      "correct": "Moby Dick",
+      "answers": [
+        "Leviathan",
+        "Moby Dick",
+        "Shamu",
+        "White Fang"
+      ],
+      "category": "Books",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "correct": "William Shakespeare",
+      "answers": [
+        "Christopher Marlowe",
+        "John Milton",
+        "William Shakespeare",
+        "Geoffrey Chaucer"
+      ],
+      "category": "Books",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In 'The Lion, the Witch and the Wardrobe', what land do the children enter?",
+      "correct": "Narnia",
+      "answers": [
+        "Oz",
+        "Narnia",
+        "Neverland",
+        "Wonderland"
+      ],
+      "category": "Books",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who wrote 'The Very Hungry Caterpillar'?",
+      "correct": "Eric Carle",
+      "answers": [
+        "Eric Carle",
+        "Dr. Seuss",
+        "Beatrix Potter",
+        "Maurice Sendak"
+      ],
+      "category": "Books",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the first book of the Bible?",
+      "correct": "Genesis",
+      "answers": [
+        "Exodus",
+        "Genesis",
+        "Psalms",
+        "Matthew"
+      ],
+      "category": "Books",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "correct": "Jane Austen",
+      "answers": [
+        "Charlotte Bronte",
+        "Jane Austen",
+        "Mary Shelley",
+        "George Eliot"
+      ],
+      "category": "Books",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the name of the fictional detective created by Arthur Conan Doyle?",
+      "correct": "Sherlock Holmes",
+      "answers": [
+        "Hercule Poirot",
+        "Sherlock Holmes",
+        "Philip Marlowe",
+        "Sam Spade"
+      ],
+      "category": "Books",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In which book does the character Frodo Baggins appear?",
+      "correct": "The Lord of the Rings",
+      "answers": [
+        "The Hobbit",
+        "The Lord of the Rings",
+        "The Silmarillion",
+        "Unfinished Tales"
+      ],
+      "category": "Books",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who wrote '1984'?",
+      "correct": "George Orwell",
+      "answers": [
+        "Aldous Huxley",
+        "George Orwell",
+        "Ray Bradbury",
+        "Philip K. Dick"
+      ],
+      "category": "Books",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What dystopian novel features a society where books are burned?",
+      "correct": "Fahrenheit 451",
+      "answers": [
+        "1984",
+        "Brave New World",
+        "Fahrenheit 451",
+        "We"
+      ],
+      "category": "Books",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who wrote 'One Hundred Years of Solitude'?",
+      "correct": "Gabriel Garcia Marquez",
+      "answers": [
+        "Pablo Neruda",
+        "Gabriel Garcia Marquez",
+        "Jorge Luis Borges",
+        "Mario Vargas Llosa"
+      ],
+      "category": "Books",
+      "difficulty": "medium"
+    },
+    {
+      "question": "In which novel does the character Jay Gatsby appear?",
+      "correct": "The Great Gatsby",
+      "answers": [
+        "Of Mice and Men",
+        "The Sun Also Rises",
+        "The Great Gatsby",
+        "Tender is the Night"
+      ],
+      "category": "Books",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who wrote 'Crime and Punishment'?",
+      "correct": "Fyodor Dostoevsky",
+      "answers": [
+        "Leo Tolstoy",
+        "Anton Chekhov",
+        "Fyodor Dostoevsky",
+        "Ivan Turgenev"
+      ],
+      "category": "Books",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the subtitle of Mary Shelley's 'Frankenstein'?",
+      "correct": "The Modern Prometheus",
+      "answers": [
+        "A Gothic Tale",
+        "The Modern Prometheus",
+        "The Creation",
+        "A Cautionary Tale"
+      ],
+      "category": "Books",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which Shakespeare play features the line 'To be or not to be'?",
+      "correct": "Hamlet",
+      "answers": [
+        "Macbeth",
+        "Othello",
+        "Hamlet",
+        "King Lear"
+      ],
+      "category": "Books",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who wrote 'The Catcher in the Rye'?",
+      "correct": "J.D. Salinger",
+      "answers": [
+        "John Steinbeck",
+        "F. Scott Fitzgerald",
+        "J.D. Salinger",
+        "Ernest Hemingway"
+      ],
+      "category": "Books",
+      "difficulty": "medium"
+    },
+    {
+      "question": "In 'Don Quixote', what does Don Quixote famously attack thinking they are giants?",
+      "correct": "Windmills",
+      "answers": [
+        "Castles",
+        "Windmills",
+        "Trees",
+        "Horses"
+      ],
+      "category": "Books",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who wrote 'Beloved'?",
+      "correct": "Toni Morrison",
+      "answers": [
+        "Alice Walker",
+        "Maya Angelou",
+        "Toni Morrison",
+        "Zora Neale Hurston"
+      ],
+      "category": "Books",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the name of the narrative technique used in 'Ulysses' by James Joyce?",
+      "correct": "Stream of consciousness",
+      "answers": [
+        "Unreliable narrator",
+        "Stream of consciousness",
+        "In medias res",
+        "Epistolary"
+      ],
+      "category": "Books",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which novel begins with the line 'Call me Ishmael'?",
+      "correct": "Moby-Dick",
+      "answers": [
+        "Billy Budd",
+        "Moby-Dick",
+        "The Scarlet Letter",
+        "Adventures of Huckleberry Finn"
+      ],
+      "category": "Books",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who wrote 'The Master and Margarita'?",
+      "correct": "Mikhail Bulgakov",
+      "answers": [
+        "Boris Pasternak",
+        "Mikhail Bulgakov",
+        "Maxim Gorky",
+        "Alexander Solzhenitsyn"
+      ],
+      "category": "Books",
+      "difficulty": "hard"
+    },
+    {
+      "question": "In which year was 'In Search of Lost Time' by Proust first published?",
+      "correct": "1913",
+      "answers": [
+        "1900",
+        "1908",
+        "1913",
+        "1922"
+      ],
+      "category": "Books",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What literary movement is associated with writers like Kafka and Camus?",
+      "correct": "Absurdism and Existentialism",
+      "answers": [
+        "Romanticism",
+        "Naturalism",
+        "Absurdism and Existentialism",
+        "Modernism"
+      ],
+      "category": "Books",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who wrote the novel 'Middlemarch'?",
+      "correct": "George Eliot",
+      "answers": [
+        "Thomas Hardy",
+        "Anthony Trollope",
+        "George Eliot",
+        "Charles Dickens"
+      ],
+      "category": "Books",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which poet wrote 'The Waste Land'?",
+      "correct": "T.S. Eliot",
+      "answers": [
+        "W.B. Yeats",
+        "Ezra Pound",
+        "T.S. Eliot",
+        "W.H. Auden"
+      ],
+      "category": "Books",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the term for a novel written in the form of letters or diary entries?",
+      "correct": "Epistolary novel",
+      "answers": [
+        "Bildungsroman",
+        "Picaresque",
+        "Epistolary novel",
+        "Novella"
+      ],
+      "category": "Books",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who wrote 'Things Fall Apart'?",
+      "correct": "Chinua Achebe",
+      "answers": [
+        "Wole Soyinka",
+        "Ngugi wa Thiong'o",
+        "Chinua Achebe",
+        "Ben Okri"
+      ],
+      "category": "Books",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which Dostoevsky novel features the Grand Inquisitor parable?",
+      "correct": "The Brothers Karamazov",
+      "answers": [
+        "The Idiot",
+        "Demons",
+        "The Brothers Karamazov",
+        "Notes from Underground"
+      ],
+      "category": "Books",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a 'Bildungsroman'?",
+      "correct": "A coming-of-age novel",
+      "answers": [
+        "A war novel",
+        "A coming-of-age novel",
+        "A political satire",
+        "A ghost story"
+      ],
+      "category": "Books",
+      "difficulty": "hard"
+    }
+  ],
+  "Film": [
+    {
+      "question": "Who directed 'Jurassic Park'?",
+      "correct": "Steven Spielberg",
+      "answers": [
+        "James Cameron",
+        "Steven Spielberg",
+        "George Lucas",
+        "Ron Howard"
+      ],
+      "category": "Film",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the name of the toy cowboy in 'Toy Story'?",
+      "correct": "Woody",
+      "answers": [
+        "Buzz",
+        "Woody",
+        "Rex",
+        "Hamm"
+      ],
+      "category": "Film",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In 'The Lion King', what is Simba's father's name?",
+      "correct": "Mufasa",
+      "answers": [
+        "Scar",
+        "Mufasa",
+        "Rafiki",
+        "Zazu"
+      ],
+      "category": "Film",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which film features the line 'I'll be back'?",
+      "correct": "The Terminator",
+      "answers": [
+        "Predator",
+        "Die Hard",
+        "The Terminator",
+        "RoboCop"
+      ],
+      "category": "Film",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What animated film features a clownfish searching for his son?",
+      "correct": "Finding Nemo",
+      "answers": [
+        "The Little Mermaid",
+        "Finding Nemo",
+        "Shark Tale",
+        "Free Willy"
+      ],
+      "category": "Film",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who played Iron Man in the Marvel Cinematic Universe?",
+      "correct": "Robert Downey Jr.",
+      "answers": [
+        "Chris Evans",
+        "Robert Downey Jr.",
+        "Chris Hemsworth",
+        "Mark Ruffalo"
+      ],
+      "category": "Film",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the highest-grossing film of all time (unadjusted for inflation)?",
+      "correct": "Avatar",
+      "answers": [
+        "Avengers: Endgame",
+        "Titanic",
+        "Avatar",
+        "Star Wars: The Force Awakens"
+      ],
+      "category": "Film",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In which film does a shark terrorise a beach town?",
+      "correct": "Jaws",
+      "answers": [
+        "Deep Blue Sea",
+        "Jaws",
+        "The Shallows",
+        "47 Meters Down"
+      ],
+      "category": "Film",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the name of the kingdom in 'Frozen'?",
+      "correct": "Arendelle",
+      "answers": [
+        "Narnia",
+        "Dunbroch",
+        "Arendelle",
+        "Agrabah"
+      ],
+      "category": "Film",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who directed 'The Dark Knight'?",
+      "correct": "Christopher Nolan",
+      "answers": [
+        "Tim Burton",
+        "Zack Snyder",
+        "Christopher Nolan",
+        "Joel Schumacher"
+      ],
+      "category": "Film",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which film won the first Academy Award for Best Picture?",
+      "correct": "Wings",
+      "answers": [
+        "Sunrise",
+        "Wings",
+        "The Jazz Singer",
+        "Chang"
+      ],
+      "category": "Film",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who directed 'Pulp Fiction'?",
+      "correct": "Quentin Tarantino",
+      "answers": [
+        "Martin Scorsese",
+        "Quentin Tarantino",
+        "David Fincher",
+        "Coen Brothers"
+      ],
+      "category": "Film",
+      "difficulty": "medium"
+    },
+    {
+      "question": "In 'The Shawshank Redemption', what does Andy Dufresne use to escape prison?",
+      "correct": "A rock hammer",
+      "answers": [
+        "A spoon",
+        "A rock hammer",
+        "An axe",
+        "A drill"
+      ],
+      "category": "Film",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What 1968 Kubrick film is based on an Arthur C. Clarke story?",
+      "correct": "2001: A Space Odyssey",
+      "answers": [
+        "Dr. Strangelove",
+        "A Clockwork Orange",
+        "2001: A Space Odyssey",
+        "Eyes Wide Shut"
+      ],
+      "category": "Film",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which actress has won the most Academy Awards for Best Actress?",
+      "correct": "Katharine Hepburn",
+      "answers": [
+        "Meryl Streep",
+        "Katharine Hepburn",
+        "Cate Blanchett",
+        "Bette Davis"
+      ],
+      "category": "Film",
+      "difficulty": "medium"
+    },
+    {
+      "question": "In which country was 'Parasite' (2019) produced?",
+      "correct": "South Korea",
+      "answers": [
+        "Japan",
+        "China",
+        "South Korea",
+        "Taiwan"
+      ],
+      "category": "Film",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the name of the fictional African country in 'Black Panther'?",
+      "correct": "Wakanda",
+      "answers": [
+        "Zamunda",
+        "Wakanda",
+        "Genovia",
+        "Latveria"
+      ],
+      "category": "Film",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who played Hannibal Lecter in 'The Silence of the Lambs'?",
+      "correct": "Anthony Hopkins",
+      "answers": [
+        "Brian Cox",
+        "Anthony Hopkins",
+        "Mads Mikkelsen",
+        "Ralph Fiennes"
+      ],
+      "category": "Film",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which Pixar film is set in the Land of the Dead?",
+      "correct": "Coco",
+      "answers": [
+        "Soul",
+        "Coco",
+        "Inside Out",
+        "Up"
+      ],
+      "category": "Film",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the name of the film technique where a single shot lasts for an unusually long time?",
+      "correct": "Long take",
+      "answers": [
+        "Jump cut",
+        "Long take",
+        "Cross-cutting",
+        "Match cut"
+      ],
+      "category": "Film",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What film introduced the concept of the 'MacGuffin' as theorised by Hitchcock?",
+      "correct": "The 39 Steps",
+      "answers": [
+        "Psycho",
+        "Vertigo",
+        "The 39 Steps",
+        "Rear Window"
+      ],
+      "category": "Film",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who wrote the screenplay for '2001: A Space Odyssey'?",
+      "correct": "Stanley Kubrick and Arthur C. Clarke",
+      "answers": [
+        "Arthur C. Clarke alone",
+        "Stanley Kubrick alone",
+        "Stanley Kubrick and Arthur C. Clarke",
+        "Terry Southern"
+      ],
+      "category": "Film",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What cinematic technique involves filming from behind or over a character's shoulder?",
+      "correct": "Over-the-shoulder shot",
+      "answers": [
+        "Dutch angle",
+        "Over-the-shoulder shot",
+        "Rack focus",
+        "Whip pan"
+      ],
+      "category": "Film",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which French New Wave director made 'Breathless' (À bout de souffle)?",
+      "correct": "Jean-Luc Godard",
+      "answers": [
+        "Francois Truffaut",
+        "Jean-Luc Godard",
+        "Agnes Varda",
+        "Claude Chabrol"
+      ],
+      "category": "Film",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the term for the visual style and atmosphere of a film?",
+      "correct": "Mise-en-scene",
+      "answers": [
+        "Cinematography",
+        "Mise-en-scene",
+        "Auteur theory",
+        "Montage"
+      ],
+      "category": "Film",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which film is considered the first feature-length animated film?",
+      "correct": "Snow White and the Seven Dwarfs",
+      "answers": [
+        "Fantasia",
+        "Snow White and the Seven Dwarfs",
+        "Pinocchio",
+        "Bambi"
+      ],
+      "category": "Film",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Kuleshov Effect in cinema?",
+      "correct": "Viewer derives meaning from the juxtaposition of two shots",
+      "answers": [
+        "A lighting technique",
+        "Viewer derives meaning from the juxtaposition of two shots",
+        "A type of camera movement",
+        "An editing rhythm technique"
+      ],
+      "category": "Film",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who composed the score for 'Schindler's List'?",
+      "correct": "John Williams",
+      "answers": [
+        "Ennio Morricone",
+        "Hans Zimmer",
+        "John Williams",
+        "Bernard Herrmann"
+      ],
+      "category": "Film",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which film uses the narrative technique of non-linear storytelling told through interviews with survivors?",
+      "correct": "Rashomon",
+      "answers": [
+        "Citizen Kane",
+        "Rashomon",
+        "The Usual Suspects",
+        "Memento"
+      ],
+      "category": "Film",
+      "difficulty": "hard"
+    },
+    {
+      "question": "In what year was the first public film screening by the Lumiere Brothers?",
+      "correct": "1895",
+      "answers": [
+        "1888",
+        "1895",
+        "1900",
+        "1905"
+      ],
+      "category": "Film",
+      "difficulty": "hard"
+    }
+  ],
+  "Music": [
+    {
+      "question": "How many strings does a standard guitar have?",
+      "correct": "6",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "category": "Music",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which band performed 'Bohemian Rhapsody'?",
+      "correct": "Queen",
+      "answers": [
+        "The Beatles",
+        "Queen",
+        "Led Zeppelin",
+        "The Rolling Stones"
+      ],
+      "category": "Music",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What instrument does a pianist play?",
+      "correct": "Piano",
+      "answers": [
+        "Violin",
+        "Cello",
+        "Piano",
+        "Harpsichord"
+      ],
+      "category": "Music",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many notes are in an octave?",
+      "correct": "8",
+      "answers": [
+        "6",
+        "7",
+        "8",
+        "12"
+      ],
+      "category": "Music",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who is known as the 'King of Pop'?",
+      "correct": "Michael Jackson",
+      "answers": [
+        "Prince",
+        "Elvis Presley",
+        "Michael Jackson",
+        "David Bowie"
+      ],
+      "category": "Music",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which country does reggae music originate from?",
+      "correct": "Jamaica",
+      "answers": [
+        "Cuba",
+        "Brazil",
+        "Jamaica",
+        "Trinidad"
+      ],
+      "category": "Music",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the fastest tempo marking in music?",
+      "correct": "Prestissimo",
+      "answers": [
+        "Allegro",
+        "Vivace",
+        "Presto",
+        "Prestissimo"
+      ],
+      "category": "Music",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which instrument has black and white keys?",
+      "correct": "Piano",
+      "answers": [
+        "Organ",
+        "Piano",
+        "Harpsichord",
+        "Both piano and harpsichord"
+      ],
+      "category": "Music",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who sang 'Rolling in the Deep'?",
+      "correct": "Adele",
+      "answers": [
+        "Beyonce",
+        "Adele",
+        "Rihanna",
+        "Amy Winehouse"
+      ],
+      "category": "Music",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does the musical term 'forte' mean?",
+      "correct": "Loud",
+      "answers": [
+        "Soft",
+        "Fast",
+        "Loud",
+        "Slow"
+      ],
+      "category": "Music",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which composer wrote 'The Four Seasons'?",
+      "correct": "Antonio Vivaldi",
+      "answers": [
+        "Johann Sebastian Bach",
+        "Antonio Vivaldi",
+        "Wolfgang Amadeus Mozart",
+        "Georg Handel"
+      ],
+      "category": "Music",
+      "difficulty": "medium"
+    },
+    {
+      "question": "In what decade did the British Invasion of American pop music occur?",
+      "correct": "1960s",
+      "answers": [
+        "1950s",
+        "1960s",
+        "1970s",
+        "1980s"
+      ],
+      "category": "Music",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the time signature of a waltz?",
+      "correct": "3/4",
+      "answers": [
+        "2/4",
+        "3/4",
+        "4/4",
+        "6/8"
+      ],
+      "category": "Music",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who composed 'Fur Elise'?",
+      "correct": "Ludwig van Beethoven",
+      "answers": [
+        "Franz Schubert",
+        "Frederic Chopin",
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart"
+      ],
+      "category": "Music",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What genre did artists like Tupac and Biggie define in the 1990s?",
+      "correct": "East Coast/West Coast Hip-Hop",
+      "answers": [
+        "R&B",
+        "East Coast/West Coast Hip-Hop",
+        "Gangsta Rap",
+        "Trap"
+      ],
+      "category": "Music",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which band recorded the album 'Dark Side of the Moon'?",
+      "correct": "Pink Floyd",
+      "answers": [
+        "Yes",
+        "Pink Floyd",
+        "Genesis",
+        "King Crimson"
+      ],
+      "category": "Music",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the lowest male singing voice called?",
+      "correct": "Bass",
+      "answers": [
+        "Tenor",
+        "Baritone",
+        "Bass",
+        "Alto"
+      ],
+      "category": "Music",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which musical notation indicates a gradual increase in volume?",
+      "correct": "Crescendo",
+      "answers": [
+        "Diminuendo",
+        "Fortissimo",
+        "Crescendo",
+        "Staccato"
+      ],
+      "category": "Music",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who is the lead vocalist of the band U2?",
+      "correct": "Bono",
+      "answers": [
+        "The Edge",
+        "Bono",
+        "Larry Mullen Jr.",
+        "Adam Clayton"
+      ],
+      "category": "Music",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What style of music is characterised by call-and-response vocals and originated in the American South?",
+      "correct": "Blues",
+      "answers": [
+        "Jazz",
+        "Gospel",
+        "Blues",
+        "Soul"
+      ],
+      "category": "Music",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the term for a musical composition for a solo instrument accompanied by an orchestra?",
+      "correct": "Concerto",
+      "answers": [
+        "Symphony",
+        "Sonata",
+        "Concerto",
+        "Suite"
+      ],
+      "category": "Music",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who developed the twelve-tone composition technique?",
+      "correct": "Arnold Schoenberg",
+      "answers": [
+        "Igor Stravinsky",
+        "Arnold Schoenberg",
+        "Bela Bartok",
+        "Alban Berg"
+      ],
+      "category": "Music",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Pythagorean comma in music theory?",
+      "correct": "The difference between 12 perfect fifths and 7 octaves",
+      "answers": [
+        "A type of musical scale",
+        "The difference between 12 perfect fifths and 7 octaves",
+        "A form of musical notation",
+        "The interval between a major and minor third"
+      ],
+      "category": "Music",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which composer was largely deaf when he composed his Ninth Symphony?",
+      "correct": "Ludwig van Beethoven",
+      "answers": [
+        "Robert Schumann",
+        "Ludwig van Beethoven",
+        "Franz Liszt",
+        "Hector Berlioz"
+      ],
+      "category": "Music",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is 'musique concrete'?",
+      "correct": "Music composed from recorded real-world sounds",
+      "answers": [
+        "Minimalist classical music",
+        "Electronic dance music",
+        "Music composed from recorded real-world sounds",
+        "Atonal jazz improvisation"
+      ],
+      "category": "Music",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which Russian composer wrote 'The Rite of Spring'?",
+      "correct": "Igor Stravinsky",
+      "answers": [
+        "Sergei Prokofiev",
+        "Dmitri Shostakovich",
+        "Igor Stravinsky",
+        "Nikolai Rimsky-Korsakov"
+      ],
+      "category": "Music",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a 'passacaglia' in classical music?",
+      "correct": "A composition over a repeating bass line or harmonic progression",
+      "answers": [
+        "A fast Italian dance",
+        "A composition over a repeating bass line or harmonic progression",
+        "A type of vocal exercise",
+        "An ornamental flourish"
+      ],
+      "category": "Music",
+      "difficulty": "hard"
+    },
+    {
+      "question": "John Cage's composition '4'33\"' consists of what?",
+      "correct": "Four minutes and thirty-three seconds of silence",
+      "answers": [
+        "Rapid piano arpeggios",
+        "Four minutes and thirty-three seconds of silence",
+        "Random sounds from instruments",
+        "A sustained single note"
+      ],
+      "category": "Music",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What music genre did Fela Kuti pioneer?",
+      "correct": "Afrobeat",
+      "answers": [
+        "Highlife",
+        "Afrobeat",
+        "Juju",
+        "Fuji"
+      ],
+      "category": "Music",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is equal temperament in music?",
+      "correct": "A tuning system dividing the octave into 12 equal semitones",
+      "answers": [
+        "Playing all instruments at the same volume",
+        "A tuning system dividing the octave into 12 equal semitones",
+        "Balancing high and low frequencies",
+        "A method of choir arrangement"
+      ],
+      "category": "Music",
+      "difficulty": "hard"
+    }
+  ],
+  "Science & Nature": [
+    {
+      "question": "What is the powerhouse of the cell?",
+      "correct": "Mitochondria",
+      "answers": [
+        "Nucleus",
+        "Ribosome",
+        "Mitochondria",
+        "Golgi apparatus"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What planet is known as the Red Planet?",
+      "correct": "Mars",
+      "answers": [
+        "Venus",
+        "Jupiter",
+        "Mars",
+        "Saturn"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What force keeps planets in orbit around the Sun?",
+      "correct": "Gravity",
+      "answers": [
+        "Magnetism",
+        "Friction",
+        "Gravity",
+        "Electrostatic force"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the symbol for the element Oxygen?",
+      "correct": "O",
+      "answers": [
+        "Ox",
+        "O",
+        "On",
+        "Og"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many planets are in our solar system?",
+      "correct": "8",
+      "answers": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What type of animal is a dolphin?",
+      "correct": "Mammal",
+      "answers": [
+        "Fish",
+        "Reptile",
+        "Mammal",
+        "Amphibian"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the process by which plants make their own food?",
+      "correct": "Photosynthesis",
+      "answers": [
+        "Respiration",
+        "Photosynthesis",
+        "Transpiration",
+        "Osmosis"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What gas do humans exhale?",
+      "correct": "Carbon dioxide",
+      "answers": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the boiling point of water at sea level in Celsius?",
+      "correct": "100°C",
+      "answers": [
+        "90°C",
+        "95°C",
+        "100°C",
+        "212°C"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many bones are in the human spine?",
+      "correct": "33",
+      "answers": [
+        "24",
+        "26",
+        "33",
+        "40"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the process by which liquid water becomes water vapour?",
+      "correct": "Evaporation",
+      "answers": [
+        "Condensation",
+        "Evaporation",
+        "Sublimation",
+        "Precipitation"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the atomic number of Carbon?",
+      "correct": "6",
+      "answers": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What type of bond involves the sharing of electron pairs between atoms?",
+      "correct": "Covalent bond",
+      "answers": [
+        "Ionic bond",
+        "Covalent bond",
+        "Metallic bond",
+        "Hydrogen bond"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which organ produces insulin in the human body?",
+      "correct": "Pancreas",
+      "answers": [
+        "Liver",
+        "Kidney",
+        "Pancreas",
+        "Thyroid"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the name of the scale used to measure earthquake magnitude?",
+      "correct": "Richter scale",
+      "answers": [
+        "Beaufort scale",
+        "Richter scale",
+        "Mohs scale",
+        "Fujita scale"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is Newton's Third Law of Motion?",
+      "correct": "For every action there is an equal and opposite reaction",
+      "answers": [
+        "An object in motion stays in motion",
+        "Force equals mass times acceleration",
+        "For every action there is an equal and opposite reaction",
+        "Energy cannot be created or destroyed"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the most abundant gas in Earth's atmosphere?",
+      "correct": "Nitrogen",
+      "answers": [
+        "Oxygen",
+        "Argon",
+        "Nitrogen",
+        "Carbon dioxide"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which part of the human eye controls the amount of light entering it?",
+      "correct": "Iris",
+      "answers": [
+        "Retina",
+        "Cornea",
+        "Iris",
+        "Lens"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the pH of a neutral substance?",
+      "correct": "7",
+      "answers": [
+        "0",
+        "7",
+        "10",
+        "14"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the study of fungi called?",
+      "correct": "Mycology",
+      "answers": [
+        "Botany",
+        "Zoology",
+        "Mycology",
+        "Phycology"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the Heisenberg Uncertainty Principle?",
+      "correct": "One cannot simultaneously know the exact position and momentum of a particle",
+      "answers": [
+        "Energy is always conserved",
+        "One cannot simultaneously know the exact position and momentum of a particle",
+        "Matter and energy are equivalent",
+        "Observation affects particle spin"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Chandrasekhar limit?",
+      "correct": "The maximum mass of a stable white dwarf star (~1.4 solar masses)",
+      "answers": [
+        "The speed at which a star collapses",
+        "The maximum mass of a stable white dwarf star (~1.4 solar masses)",
+        "The minimum mass needed for nuclear fusion",
+        "The boundary of a neutron star"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What process describes the spontaneous emission of particles from an unstable atomic nucleus?",
+      "correct": "Radioactive decay",
+      "answers": [
+        "Nuclear fission",
+        "Radioactive decay",
+        "Nuclear fusion",
+        "Beta absorption"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does DNA stand for?",
+      "correct": "Deoxyribonucleic acid",
+      "answers": [
+        "Deoxyribonucleotide acid",
+        "Deoxyribonucleic acid",
+        "Diribonucleic acid",
+        "Deoxyribose nucleic acid"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the name of the theoretical boundary around a black hole from which nothing can escape?",
+      "correct": "Event horizon",
+      "answers": [
+        "Schwarzschild radius",
+        "Event horizon",
+        "Singularity",
+        "Photon sphere"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which enzyme unwinds the DNA double helix during replication?",
+      "correct": "Helicase",
+      "answers": [
+        "Polymerase",
+        "Ligase",
+        "Helicase",
+        "Primase"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the CPT symmetry in physics?",
+      "correct": "Charge conjugation, parity, and time reversal symmetry",
+      "answers": [
+        "Conservation of energy in particle collisions",
+        "Charge conjugation, parity, and time reversal symmetry",
+        "A theory of colour force between quarks",
+        "Classical particle tracking"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is CRISPR-Cas9 used for in biology?",
+      "correct": "Precise editing of DNA sequences",
+      "answers": [
+        "Synthesising proteins in vitro",
+        "Precise editing of DNA sequences",
+        "Measuring gene expression",
+        "Sequencing genomes"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Hardy-Weinberg equilibrium in genetics?",
+      "correct": "A principle stating allele frequencies remain constant in the absence of evolutionary forces",
+      "answers": [
+        "The rate of genetic mutation per generation",
+        "A principle stating allele frequencies remain constant in the absence of evolutionary forces",
+        "The balance of dominant to recessive traits",
+        "The minimum population needed for genetic diversity"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What type of radiation has the shortest wavelength?",
+      "correct": "Gamma rays",
+      "answers": [
+        "X-rays",
+        "Ultraviolet",
+        "Gamma rays",
+        "Cosmic rays"
+      ],
+      "category": "Science & Nature",
+      "difficulty": "hard"
+    }
+  ],
+  "Computers": [
+    {
+      "question": "What does CPU stand for?",
+      "correct": "Central Processing Unit",
+      "answers": [
+        "Central Processing Unit",
+        "Computer Personal Unit",
+        "Core Processing Utility",
+        "Central Program Unit"
+      ],
+      "category": "Computers",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does HTML stand for?",
+      "correct": "HyperText Markup Language",
+      "answers": [
+        "High Text Markup Language",
+        "HyperText Markup Language",
+        "HyperText Machine Language",
+        "Hyper Transfer Markup Language"
+      ],
+      "category": "Computers",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What symbol is used for 'AND' in most programming languages?",
+      "correct": "&&",
+      "answers": [
+        "&",
+        "&&",
+        "||",
+        "//"
+      ],
+      "category": "Computers",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does RAM stand for?",
+      "correct": "Random Access Memory",
+      "answers": [
+        "Read Access Memory",
+        "Random Access Memory",
+        "Rapid Access Module",
+        "Read And Memory"
+      ],
+      "category": "Computers",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the most common programming language used for web pages?",
+      "correct": "JavaScript",
+      "answers": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "PHP"
+      ],
+      "category": "Computers",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does 'www' stand for in a web address?",
+      "correct": "World Wide Web",
+      "answers": [
+        "World Wide Web",
+        "World Web Window",
+        "Wide World Web",
+        "Web World Window"
+      ],
+      "category": "Computers",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many bits are in one byte?",
+      "correct": "8",
+      "answers": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "category": "Computers",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a 'bug' in programming?",
+      "correct": "An error or flaw in the code",
+      "answers": [
+        "A virus",
+        "An error or flaw in the code",
+        "A type of malware",
+        "A memory overflow"
+      ],
+      "category": "Computers",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which company created the Python programming language?",
+      "correct": "Guido van Rossum (not a company)",
+      "answers": [
+        "Microsoft",
+        "Google",
+        "Guido van Rossum (not a company)",
+        "Bell Labs"
+      ],
+      "category": "Computers",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does 'URL' stand for?",
+      "correct": "Uniform Resource Locator",
+      "answers": [
+        "Universal Resource Link",
+        "Uniform Resource Locator",
+        "Unified Reference Location",
+        "Universal Reference Locator"
+      ],
+      "category": "Computers",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does SQL stand for?",
+      "correct": "Structured Query Language",
+      "answers": [
+        "Structured Query Language",
+        "Simple Question Language",
+        "Sequential Query Logic",
+        "Standard Query Language"
+      ],
+      "category": "Computers",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the purpose of a 'for loop' in programming?",
+      "correct": "To repeat a block of code a specified number of times",
+      "answers": [
+        "To define a function",
+        "To repeat a block of code a specified number of times",
+        "To handle errors",
+        "To import libraries"
+      ],
+      "category": "Computers",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the difference between a compiler and an interpreter?",
+      "correct": "A compiler translates the whole program at once; an interpreter executes line by line",
+      "answers": [
+        "A compiler is slower than an interpreter",
+        "A compiler translates the whole program at once; an interpreter executes line by line",
+        "An interpreter creates machine code; a compiler does not",
+        "There is no practical difference"
+      ],
+      "category": "Computers",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What data structure uses LIFO (Last In, First Out) order?",
+      "correct": "Stack",
+      "answers": [
+        "Queue",
+        "Stack",
+        "Linked list",
+        "Tree"
+      ],
+      "category": "Computers",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is an IP address?",
+      "correct": "A unique numerical label assigned to each device on a network",
+      "answers": [
+        "An internal processor address",
+        "A unique numerical label assigned to each device on a network",
+        "A type of internet protocol port",
+        "A password for network access"
+      ],
+      "category": "Computers",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does CSS stand for?",
+      "correct": "Cascading Style Sheets",
+      "answers": [
+        "Creative Style System",
+        "Cascading Style Sheets",
+        "Computer Style Sheets",
+        "Coded Style System"
+      ],
+      "category": "Computers",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a recursive function?",
+      "correct": "A function that calls itself",
+      "answers": [
+        "A function with no return value",
+        "A function that calls itself",
+        "A function that runs indefinitely",
+        "A function stored in memory permanently"
+      ],
+      "category": "Computers",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which sorting algorithm has an average time complexity of O(n log n)?",
+      "correct": "Merge sort",
+      "answers": [
+        "Bubble sort",
+        "Insertion sort",
+        "Merge sort",
+        "Selection sort"
+      ],
+      "category": "Computers",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the purpose of 'version control' in software development?",
+      "correct": "To track and manage changes to code over time",
+      "answers": [
+        "To test software performance",
+        "To track and manage changes to code over time",
+        "To encrypt source code",
+        "To compress executable files"
+      ],
+      "category": "Computers",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a REST API?",
+      "correct": "An architectural style for designing networked applications using HTTP",
+      "answers": [
+        "A type of database",
+        "An architectural style for designing networked applications using HTTP",
+        "A security protocol",
+        "A server-side scripting language"
+      ],
+      "category": "Computers",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the P vs NP problem in computer science?",
+      "correct": "Whether every problem whose solution can be verified quickly can also be solved quickly",
+      "answers": [
+        "Whether all sorting algorithms can run in polynomial time",
+        "Whether every problem whose solution can be verified quickly can also be solved quickly",
+        "The performance trade-off between processors and memory",
+        "Whether machine learning can achieve human-level intelligence"
+      ],
+      "category": "Computers",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does Big O notation describe?",
+      "correct": "The worst-case time or space complexity of an algorithm",
+      "answers": [
+        "The best-case time of an algorithm",
+        "The worst-case time or space complexity of an algorithm",
+        "The average memory usage of a program",
+        "The number of lines in a program"
+      ],
+      "category": "Computers",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a Turing machine?",
+      "correct": "A mathematical model of computation that defines an abstract machine",
+      "answers": [
+        "The first electronic computer",
+        "A mathematical model of computation that defines an abstract machine",
+        "Alan Turing's personal computer design",
+        "A machine for breaking the Enigma code"
+      ],
+      "category": "Computers",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the difference between TCP and UDP protocols?",
+      "correct": "TCP is connection-oriented and reliable; UDP is connectionless and faster",
+      "answers": [
+        "TCP is faster than UDP",
+        "TCP is connection-oriented and reliable; UDP is connectionless and faster",
+        "UDP guarantees delivery; TCP does not",
+        "They are identical except in name"
+      ],
+      "category": "Computers",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a hash collision in data structures?",
+      "correct": "When two different inputs produce the same hash value",
+      "answers": [
+        "When a server crashes due to too many requests",
+        "When two different inputs produce the same hash value",
+        "When memory addresses overlap",
+        "When a recursive function runs infinitely"
+      ],
+      "category": "Computers",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is dynamic programming in computer science?",
+      "correct": "A method for solving complex problems by breaking them into overlapping subproblems",
+      "answers": [
+        "A technique for real-time memory allocation",
+        "A method for solving complex problems by breaking them into overlapping subproblems",
+        "A programming paradigm using objects",
+        "A way of writing code that changes at runtime"
+      ],
+      "category": "Computers",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a deadlock in operating systems?",
+      "correct": "A state where two or more processes are each waiting for the other to release a resource",
+      "answers": [
+        "A program that crashes repeatedly",
+        "A state where two or more processes are each waiting for the other to release a resource",
+        "A system running out of RAM",
+        "A corrupted file preventing OS from booting"
+      ],
+      "category": "Computers",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does ACID stand for in database transactions?",
+      "correct": "Atomicity, Consistency, Isolation, Durability",
+      "answers": [
+        "Access, Control, Integrity, Data",
+        "Atomicity, Consistency, Isolation, Durability",
+        "Availability, Consistency, Integrity, Delivery",
+        "Atomicity, Concurrency, Indexing, Durability"
+      ],
+      "category": "Computers",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the CAP theorem in distributed systems?",
+      "correct": "A distributed system cannot simultaneously guarantee Consistency, Availability, and Partition tolerance",
+      "answers": [
+        "The trade-off between computation speed and accuracy",
+        "A distributed system cannot simultaneously guarantee Consistency, Availability, and Partition tolerance",
+        "A rule about cache invalidation",
+        "The relationship between CPU, RAM, and storage"
+      ],
+      "category": "Computers",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is Amdahl's Law?",
+      "correct": "The speedup from parallelising a task is limited by its sequential portion",
+      "answers": [
+        "The power consumption of a CPU scales with clock speed squared",
+        "The speedup from parallelising a task is limited by its sequential portion",
+        "Memory access time grows logarithmically with memory size",
+        "Network latency is inversely proportional to bandwidth"
+      ],
+      "category": "Computers",
+      "difficulty": "hard"
+    }
+  ],
+  "Mathematics": [
+    {
+      "question": "What is 7 multiplied by 8?",
+      "correct": "56",
+      "answers": [
+        "48",
+        "54",
+        "56",
+        "64"
+      ],
+      "category": "Mathematics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the value of pi to two decimal places?",
+      "correct": "3.14",
+      "answers": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.41"
+      ],
+      "category": "Mathematics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the square root of 144?",
+      "correct": "12",
+      "answers": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "category": "Mathematics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many degrees are in a right angle?",
+      "correct": "90",
+      "answers": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "category": "Mathematics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is 50% of 200?",
+      "correct": "100",
+      "answers": [
+        "50",
+        "75",
+        "100",
+        "150"
+      ],
+      "category": "Mathematics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is 2 to the power of 10?",
+      "correct": "1024",
+      "answers": [
+        "512",
+        "1000",
+        "1024",
+        "2048"
+      ],
+      "category": "Mathematics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many sides does a triangle have?",
+      "correct": "3",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "category": "Mathematics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the next prime number after 7?",
+      "correct": "11",
+      "answers": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "category": "Mathematics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is 15% of 100?",
+      "correct": "15",
+      "answers": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "category": "Mathematics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the Roman numeral for 10?",
+      "correct": "X",
+      "answers": [
+        "V",
+        "X",
+        "L",
+        "C"
+      ],
+      "category": "Mathematics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the formula for the area of a circle?",
+      "correct": "πr²",
+      "answers": [
+        "2πr",
+        "πr²",
+        "πd",
+        "2πr²"
+      ],
+      "category": "Mathematics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the Pythagorean theorem?",
+      "correct": "a² + b² = c²",
+      "answers": [
+        "a + b = c",
+        "a² + b² = c²",
+        "a² - b² = c²",
+        "a × b = c²"
+      ],
+      "category": "Mathematics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the derivative of sin(x)?",
+      "correct": "cos(x)",
+      "answers": [
+        "-cos(x)",
+        "cos(x)",
+        "-sin(x)",
+        "tan(x)"
+      ],
+      "category": "Mathematics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is 8! (8 factorial)?",
+      "correct": "40320",
+      "answers": [
+        "5040",
+        "40320",
+        "80640",
+        "362880"
+      ],
+      "category": "Mathematics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the sum of interior angles of a pentagon?",
+      "correct": "540°",
+      "answers": [
+        "360°",
+        "450°",
+        "540°",
+        "720°"
+      ],
+      "category": "Mathematics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What type of number cannot be expressed as a fraction p/q where p and q are integers?",
+      "correct": "Irrational number",
+      "answers": [
+        "Imaginary number",
+        "Prime number",
+        "Irrational number",
+        "Complex number"
+      ],
+      "category": "Mathematics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is log₁₀(1000)?",
+      "correct": "3",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "100"
+      ],
+      "category": "Mathematics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the formula for the volume of a sphere?",
+      "correct": "(4/3)πr³",
+      "answers": [
+        "πr²h",
+        "(4/3)πr³",
+        "4πr²",
+        "(2/3)πr³"
+      ],
+      "category": "Mathematics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does it mean for two lines to be perpendicular?",
+      "correct": "They meet at a 90-degree angle",
+      "answers": [
+        "They never meet",
+        "They are parallel",
+        "They meet at a 90-degree angle",
+        "They have the same slope"
+      ],
+      "category": "Mathematics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the binomial theorem used for?",
+      "correct": "Expanding expressions of the form (a + b)ⁿ",
+      "answers": [
+        "Solving quadratic equations",
+        "Expanding expressions of the form (a + b)ⁿ",
+        "Calculating matrix determinants",
+        "Finding roots of polynomials"
+      ],
+      "category": "Mathematics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is Euler's identity?",
+      "correct": "e^(iπ) + 1 = 0",
+      "answers": [
+        "e = mc²",
+        "e^(iπ) + 1 = 0",
+        "∫e^x dx = e^x + C",
+        "e = lim(1 + 1/n)^n"
+      ],
+      "category": "Mathematics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is Gödel's incompleteness theorem?",
+      "correct": "Any consistent formal system cannot prove all truths about arithmetic",
+      "answers": [
+        "All mathematical problems are solvable",
+        "Any consistent formal system cannot prove all truths about arithmetic",
+        "Set theory cannot define infinite sets",
+        "Logic and mathematics are equivalent systems"
+      ],
+      "category": "Mathematics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a Fourier transform used for?",
+      "correct": "Decomposing a function into its frequency components",
+      "answers": [
+        "Solving differential equations numerically",
+        "Decomposing a function into its frequency components",
+        "Computing matrix eigenvalues",
+        "Transforming coordinate systems"
+      ],
+      "category": "Mathematics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Riemann hypothesis about?",
+      "correct": "The distribution of non-trivial zeros of the Riemann zeta function",
+      "answers": [
+        "The distribution of prime numbers in small intervals",
+        "The distribution of non-trivial zeros of the Riemann zeta function",
+        "The convergence of infinite series",
+        "The geometry of curved spacetime"
+      ],
+      "category": "Mathematics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does it mean for a matrix to be singular?",
+      "correct": "Its determinant is zero and it has no inverse",
+      "answers": [
+        "It has only one row or column",
+        "Its determinant is zero and it has no inverse",
+        "All its entries are the same",
+        "It is not a square matrix"
+      ],
+      "category": "Mathematics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a Markov chain?",
+      "correct": "A stochastic process where the next state depends only on the current state",
+      "answers": [
+        "A deterministic sequence of numbers",
+        "A stochastic process where the next state depends only on the current state",
+        "A method of numerical integration",
+        "A type of graph with no cycles"
+      ],
+      "category": "Mathematics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Banach-Tarski paradox?",
+      "correct": "A solid ball can be decomposed and reassembled into two identical balls",
+      "answers": [
+        "Infinite series can sum to finite values",
+        "A solid ball can be decomposed and reassembled into two identical balls",
+        "Parallel lines can meet in non-Euclidean geometry",
+        "A set can be both open and closed"
+      ],
+      "category": "Mathematics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "In linear algebra, what is an eigenvector?",
+      "correct": "A non-zero vector that only changes by a scalar factor when a linear transformation is applied",
+      "answers": [
+        "A vector perpendicular to all others in the space",
+        "A non-zero vector that only changes by a scalar factor when a linear transformation is applied",
+        "The longest vector in a given basis",
+        "A vector whose components sum to one"
+      ],
+      "category": "Mathematics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the P-adic number system?",
+      "correct": "A number system based on a prime p with a different notion of 'closeness'",
+      "answers": [
+        "A base-p positional number system",
+        "A number system based on a prime p with a different notion of 'closeness'",
+        "The set of all prime numbers and their multiples",
+        "A complex number extension using prime bases"
+      ],
+      "category": "Mathematics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Monty Hall problem?",
+      "correct": "A probability puzzle where switching doors gives a 2/3 chance of winning",
+      "answers": [
+        "A problem about the shortest path between nodes",
+        "A probability puzzle where switching doors gives a 2/3 chance of winning",
+        "A paradox about infinite sets",
+        "A game theory problem with no Nash equilibrium"
+      ],
+      "category": "Mathematics",
+      "difficulty": "hard"
+    }
+  ],
+  "History": [
+    {
+      "question": "Who was the first President of the United States?",
+      "correct": "George Washington",
+      "answers": [
+        "Thomas Jefferson",
+        "George Washington",
+        "John Adams",
+        "Benjamin Franklin"
+      ],
+      "category": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In which year did World War II end?",
+      "correct": "1945",
+      "answers": [
+        "1943",
+        "1944",
+        "1945",
+        "1946"
+      ],
+      "category": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which ancient wonder was located in Alexandria, Egypt?",
+      "correct": "The Lighthouse of Alexandria",
+      "answers": [
+        "The Colossus of Rhodes",
+        "The Hanging Gardens",
+        "The Lighthouse of Alexandria",
+        "The Statue of Zeus"
+      ],
+      "category": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who was the first man to walk on the moon?",
+      "correct": "Neil Armstrong",
+      "answers": [
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Yuri Gagarin",
+        "John Glenn"
+      ],
+      "category": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which empire was ruled by Julius Caesar?",
+      "correct": "Roman Empire",
+      "answers": [
+        "Greek Empire",
+        "Roman Empire",
+        "Ottoman Empire",
+        "Byzantine Empire"
+      ],
+      "category": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "The Great Wall of China was primarily built to protect against whom?",
+      "correct": "Northern nomadic invasions",
+      "answers": [
+        "Japanese invasions",
+        "Mongol trade rivals",
+        "Northern nomadic invasions",
+        "Silk Road bandits"
+      ],
+      "category": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In which country did the Industrial Revolution begin?",
+      "correct": "Great Britain",
+      "answers": [
+        "France",
+        "Germany",
+        "Great Britain",
+        "United States"
+      ],
+      "category": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who was the Egyptian queen famously associated with Julius Caesar and Mark Antony?",
+      "correct": "Cleopatra",
+      "answers": [
+        "Nefertiti",
+        "Cleopatra",
+        "Hatshepsut",
+        "Isis"
+      ],
+      "category": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What year did the Berlin Wall fall?",
+      "correct": "1989",
+      "answers": [
+        "1985",
+        "1987",
+        "1989",
+        "1991"
+      ],
+      "category": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What civilisation built the Machu Picchu citadel?",
+      "correct": "Inca",
+      "answers": [
+        "Aztec",
+        "Maya",
+        "Inca",
+        "Olmec"
+      ],
+      "category": "History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What was the name of the ship that Charles Darwin sailed on during his famous voyage?",
+      "correct": "HMS Beagle",
+      "answers": [
+        "HMS Endeavour",
+        "HMS Victory",
+        "HMS Beagle",
+        "HMS Bounty"
+      ],
+      "category": "History",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which country was the first to grant women the right to vote nationally?",
+      "correct": "New Zealand",
+      "answers": [
+        "Australia",
+        "Finland",
+        "New Zealand",
+        "Norway"
+      ],
+      "category": "History",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What was the name of the first artificial satellite launched into space?",
+      "correct": "Sputnik 1",
+      "answers": [
+        "Explorer 1",
+        "Sputnik 1",
+        "Vostok 1",
+        "Luna 1"
+      ],
+      "category": "History",
+      "difficulty": "medium"
+    },
+    {
+      "question": "The Magna Carta was signed in which year?",
+      "correct": "1215",
+      "answers": [
+        "1066",
+        "1215",
+        "1348",
+        "1453"
+      ],
+      "category": "History",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which country did Napoleon Bonaparte come from originally?",
+      "correct": "Corsica (French territory)",
+      "answers": [
+        "France (mainland)",
+        "Italy",
+        "Corsica (French territory)",
+        "Spain"
+      ],
+      "category": "History",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What was the primary cause of the Black Death in medieval Europe?",
+      "correct": "Yersinia pestis bacterium spread by fleas",
+      "answers": [
+        "A viral epidemic spread by water",
+        "Yersinia pestis bacterium spread by fleas",
+        "Mass food poisoning from grain",
+        "A fungal infection from soil"
+      ],
+      "category": "History",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which empire was the largest contiguous land empire in history?",
+      "correct": "Mongol Empire",
+      "answers": [
+        "British Empire",
+        "Russian Empire",
+        "Mongol Empire",
+        "Roman Empire"
+      ],
+      "category": "History",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What event triggered the start of World War I?",
+      "correct": "Assassination of Archduke Franz Ferdinand",
+      "answers": [
+        "Invasion of Belgium",
+        "Assassination of Archduke Franz Ferdinand",
+        "Sinking of the Lusitania",
+        "The July Crisis ultimatum"
+      ],
+      "category": "History",
+      "difficulty": "medium"
+    },
+    {
+      "question": "The Haitian Revolution resulted in Haiti becoming the first what?",
+      "correct": "Black republic established by a slave revolt",
+      "answers": [
+        "Caribbean democracy",
+        "Black republic established by a slave revolt",
+        "Latin American independent nation",
+        "French colonial territory to gain autonomy"
+      ],
+      "category": "History",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What was the Marshall Plan?",
+      "correct": "A US programme to aid Western Europe's economic recovery after WWII",
+      "answers": [
+        "NATO's military strategy during the Cold War",
+        "A US programme to aid Western Europe's economic recovery after WWII",
+        "The Allied plan for the D-Day invasion",
+        "A post-WWI reparations agreement"
+      ],
+      "category": "History",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What was the Sykes-Picot Agreement of 1916?",
+      "correct": "A secret deal dividing the Middle East between Britain and France",
+      "answers": [
+        "A WWI armistice proposal",
+        "A secret deal dividing the Middle East between Britain and France",
+        "An oil-sharing treaty in the Persian Gulf",
+        "An agreement to end the Ottoman Empire"
+      ],
+      "category": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What philosophical movement heavily influenced the American and French Revolutions?",
+      "correct": "The Enlightenment",
+      "answers": [
+        "Romanticism",
+        "The Enlightenment",
+        "Mercantilism",
+        "Classical Republicanism"
+      ],
+      "category": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What was the Scramble for Africa?",
+      "correct": "The rapid colonisation of Africa by European powers in the late 19th century",
+      "answers": [
+        "African tribal wars over trade routes",
+        "The rapid colonisation of Africa by European powers in the late 19th century",
+        "The flight of Africans to escape drought",
+        "The spread of Islam across sub-Saharan Africa"
+      ],
+      "category": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who was Toussaint Louverture?",
+      "correct": "The leader of the Haitian Revolution",
+      "answers": [
+        "The first president of Liberia",
+        "The leader of the Haitian Revolution",
+        "A Congolese anti-colonial revolutionary",
+        "A Jamaican Maroon leader"
+      ],
+      "category": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "The Peace of Westphalia (1648) is considered foundational to what modern concept?",
+      "correct": "State sovereignty in international relations",
+      "answers": [
+        "Democratic governance",
+        "Free trade between nations",
+        "State sovereignty in international relations",
+        "Universal human rights"
+      ],
+      "category": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What was the significance of the Battle of Adwa in 1896?",
+      "correct": "Ethiopia defeated Italy, preserving its independence against colonisation",
+      "answers": [
+        "Britain gained control of the Suez Canal",
+        "Ethiopia defeated Italy, preserving its independence against colonisation",
+        "The Zulu kingdom was absorbed into the British Empire",
+        "France established control over West Africa"
+      ],
+      "category": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What was the Defenestration of Prague and why is it historically significant?",
+      "correct": "The throwing of officials from a window, triggering the Thirty Years' War",
+      "answers": [
+        "A massacre of Protestants in Bohemia",
+        "The throwing of officials from a window, triggering the Thirty Years' War",
+        "A coup that ended the Habsburg dynasty",
+        "The destruction of Catholic churches in Prague"
+      ],
+      "category": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What economic system did the Soviet Union operate under?",
+      "correct": "Centrally planned command economy",
+      "answers": [
+        "Market socialism",
+        "Centrally planned command economy",
+        "State capitalism",
+        "Cooperative federalism"
+      ],
+      "category": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "The Bretton Woods Agreement of 1944 established what?",
+      "correct": "A post-WWII international monetary system pegging currencies to the US dollar",
+      "answers": [
+        "The United Nations",
+        "A post-WWII international monetary system pegging currencies to the US dollar",
+        "The Marshall Plan for European recovery",
+        "The World Trade Organisation"
+      ],
+      "category": "History",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What was the significance of the Meiji Restoration in Japan (1868)?",
+      "correct": "Japan rapidly modernised and industrialised, ending feudal rule",
+      "answers": [
+        "Japan opened trade with the West for the first time",
+        "Japan rapidly modernised and industrialised, ending feudal rule",
+        "Japan colonised Korea and Taiwan",
+        "Japan adopted a constitutional monarchy modelled on Britain"
+      ],
+      "category": "History",
+      "difficulty": "hard"
+    }
+  ],
+  "Geography": [
+    {
+      "question": "What is the capital of Nigeria?",
+      "correct": "Abuja",
+      "answers": [
+        "Lagos",
+        "Abuja",
+        "Kano",
+        "Ibadan"
+      ],
+      "category": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which is the largest continent by area?",
+      "correct": "Asia",
+      "answers": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Europe"
+      ],
+      "category": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the tallest mountain in the world?",
+      "correct": "Mount Everest",
+      "answers": [
+        "K2",
+        "Mount Kilimanjaro",
+        "Mount Everest",
+        "Mont Blanc"
+      ],
+      "category": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which country has the longest coastline?",
+      "correct": "Canada",
+      "answers": [
+        "Russia",
+        "Australia",
+        "Canada",
+        "United States"
+      ],
+      "category": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "correct": "Canberra",
+      "answers": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "category": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which desert is the largest in the world?",
+      "correct": "Antarctic Desert",
+      "answers": [
+        "Sahara",
+        "Gobi",
+        "Antarctic Desert",
+        "Arabian Desert"
+      ],
+      "category": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "On which continent is the Amazon River located?",
+      "correct": "South America",
+      "answers": [
+        "Africa",
+        "Asia",
+        "South America",
+        "North America"
+      ],
+      "category": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What ocean lies between Africa and Australia?",
+      "correct": "Indian Ocean",
+      "answers": [
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Indian Ocean",
+        "Southern Ocean"
+      ],
+      "category": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "correct": "Tokyo",
+      "answers": [
+        "Osaka",
+        "Kyoto",
+        "Tokyo",
+        "Hiroshima"
+      ],
+      "category": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which river flows through Egypt?",
+      "correct": "Nile",
+      "answers": [
+        "Congo",
+        "Niger",
+        "Nile",
+        "Zambezi"
+      ],
+      "category": "Geography",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the name of the tectonic plate on which most of Africa sits?",
+      "correct": "African Plate",
+      "answers": [
+        "Eurasian Plate",
+        "African Plate",
+        "Indo-Australian Plate",
+        "Somali Plate"
+      ],
+      "category": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which country has the most time zones?",
+      "correct": "France",
+      "answers": [
+        "Russia",
+        "United States",
+        "France",
+        "China"
+      ],
+      "category": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the deepest lake in the world?",
+      "correct": "Lake Baikal",
+      "answers": [
+        "Lake Tanganyika",
+        "Caspian Sea",
+        "Lake Baikal",
+        "Lake Superior"
+      ],
+      "category": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the Ring of Fire?",
+      "correct": "A zone of volcanoes and earthquakes around the Pacific Ocean",
+      "answers": [
+        "A wildfire belt in California",
+        "A zone of volcanoes and earthquakes around the Pacific Ocean",
+        "A volcanic region in Iceland",
+        "A hot spot chain in the Atlantic"
+      ],
+      "category": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which two continents does the Panama Canal connect?",
+      "correct": "North America and South America",
+      "answers": [
+        "North America and Europe",
+        "South America and Antarctica",
+        "North America and South America",
+        "North America and Africa"
+      ],
+      "category": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the capital city of Brazil?",
+      "correct": "Brasilia",
+      "answers": [
+        "Rio de Janeiro",
+        "Sao Paulo",
+        "Brasilia",
+        "Salvador"
+      ],
+      "category": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the name of the sea between Italy and the Balkans?",
+      "correct": "Adriatic Sea",
+      "answers": [
+        "Aegean Sea",
+        "Ionian Sea",
+        "Adriatic Sea",
+        "Tyrrhenian Sea"
+      ],
+      "category": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which African country has the largest population?",
+      "correct": "Nigeria",
+      "answers": [
+        "Ethiopia",
+        "Egypt",
+        "Nigeria",
+        "DRC Congo"
+      ],
+      "category": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the Tropic of Cancer?",
+      "correct": "A latitude line at approximately 23.5°N",
+      "answers": [
+        "A latitude line at approximately 23.5°N",
+        "The equatorial region",
+        "A longitude line through Africa",
+        "The Arctic boundary"
+      ],
+      "category": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which country is home to the Atacama Desert?",
+      "correct": "Chile",
+      "answers": [
+        "Argentina",
+        "Peru",
+        "Chile",
+        "Bolivia"
+      ],
+      "category": "Geography",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the Sahel region of Africa?",
+      "correct": "A semi-arid transition zone between the Sahara and the savannah",
+      "answers": [
+        "The coastal region of West Africa",
+        "A semi-arid transition zone between the Sahara and the savannah",
+        "The Great Rift Valley region",
+        "The equatorial rainforest belt"
+      ],
+      "category": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What phenomenon causes the Coriolis effect?",
+      "correct": "Earth's rotation deflecting moving objects to the right in the Northern Hemisphere",
+      "answers": [
+        "Differences in ocean temperature",
+        "Earth's rotation deflecting moving objects to the right in the Northern Hemisphere",
+        "The gravitational pull of the Moon",
+        "Solar wind affecting atmospheric circulation"
+      ],
+      "category": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a fjord?",
+      "correct": "A long, narrow inlet carved by a glacier",
+      "answers": [
+        "A type of waterfall",
+        "A long, narrow inlet carved by a glacier",
+        "A coastal sand dune system",
+        "An underwater volcanic formation"
+      ],
+      "category": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What are the Roaring Forties?",
+      "correct": "Strong westerly winds found between 40° and 50° south latitude",
+      "answers": [
+        "Trade winds near the equator",
+        "Strong westerly winds found between 40° and 50° south latitude",
+        "Monsoon winds over the Indian Ocean",
+        "Polar easterlies in the Arctic"
+      ],
+      "category": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which theory explains the movement of continents?",
+      "correct": "Plate tectonics",
+      "answers": [
+        "Continental drift theory",
+        "Plate tectonics",
+        "Isostasy theory",
+        "Seafloor spreading hypothesis"
+      ],
+      "category": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a rain shadow effect?",
+      "correct": "Dry conditions on the leeward side of a mountain range",
+      "answers": [
+        "Increased rainfall near large water bodies",
+        "Dry conditions on the leeward side of a mountain range",
+        "The effect of deforestation on local rainfall",
+        "Reduced rainfall during La Nina events"
+      ],
+      "category": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Mercator projection known for distorting?",
+      "correct": "The size of landmasses, especially near the poles",
+      "answers": [
+        "Shapes of coastlines",
+        "The size of landmasses, especially near the poles",
+        "Distances between cities",
+        "The location of the equator"
+      ],
+      "category": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the difference between weather and climate?",
+      "correct": "Weather is short-term atmospheric conditions; climate is the long-term pattern",
+      "answers": [
+        "Weather is measured at sea; climate is measured on land",
+        "Weather is short-term atmospheric conditions; climate is the long-term pattern",
+        "They are the same thing measured at different scales",
+        "Climate refers only to temperature; weather includes all conditions"
+      ],
+      "category": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What geological process formed the Himalayas?",
+      "correct": "Collision of the Indian and Eurasian tectonic plates",
+      "answers": [
+        "Volcanic activity along a subduction zone",
+        "Collision of the Indian and Eurasian tectonic plates",
+        "Erosion of a larger plateau over millions of years",
+        "Uplift from a mid-ocean ridge"
+      ],
+      "category": "Geography",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a watershed?",
+      "correct": "The land area draining into a common river or body of water",
+      "answers": [
+        "A seasonal flooding zone",
+        "The land area draining into a common river or body of water",
+        "The boundary between two oceans",
+        "A natural reservoir underground"
+      ],
+      "category": "Geography",
+      "difficulty": "hard"
+    }
+  ],
+  "Politics": [
+    {
+      "question": "What type of government is ruled by the people?",
+      "correct": "Democracy",
+      "answers": [
+        "Monarchy",
+        "Democracy",
+        "Theocracy",
+        "Oligarchy"
+      ],
+      "category": "Politics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does the United Nations aim to promote?",
+      "correct": "International peace and cooperation",
+      "answers": [
+        "Global trade agreements",
+        "International peace and cooperation",
+        "Spreading democracy worldwide",
+        "Regulating global currencies"
+      ],
+      "category": "Politics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the role of the opposition in a parliamentary democracy?",
+      "correct": "To scrutinise and challenge the government",
+      "answers": [
+        "To support all government decisions",
+        "To scrutinise and challenge the government",
+        "To run the country when the government is on holiday",
+        "To vote alongside the ruling party"
+      ],
+      "category": "Politics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does NATO stand for?",
+      "correct": "North Atlantic Treaty Organisation",
+      "answers": [
+        "North American Treaty Organisation",
+        "North Atlantic Treaty Organisation",
+        "National Arms Treaty Organisation",
+        "North Allied Trade Organisation"
+      ],
+      "category": "Politics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a republic?",
+      "correct": "A state where power rests with elected representatives and a president rather than a monarch",
+      "answers": [
+        "A state with no elections",
+        "A state where power rests with elected representatives and a president rather than a monarch",
+        "A state where the military governs",
+        "A state without a constitution"
+      ],
+      "category": "Politics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who was the first female Prime Minister of the United Kingdom?",
+      "correct": "Margaret Thatcher",
+      "answers": [
+        "Theresa May",
+        "Margaret Thatcher",
+        "Elizabeth II",
+        "Barbara Castle"
+      ],
+      "category": "Politics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many permanent members are on the UN Security Council?",
+      "correct": "5",
+      "answers": [
+        "3",
+        "5",
+        "7",
+        "10"
+      ],
+      "category": "Politics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the term for a government system where one party holds all power?",
+      "correct": "Authoritarian",
+      "answers": [
+        "Federal",
+        "Authoritarian",
+        "Bicameral",
+        "Confederal"
+      ],
+      "category": "Politics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does 'separation of powers' mean?",
+      "correct": "Dividing government into executive, legislative, and judicial branches",
+      "answers": [
+        "Splitting a country into federal states",
+        "Dividing government into executive, legislative, and judicial branches",
+        "Sharing power between two political parties",
+        "Distributing tax revenue across regions"
+      ],
+      "category": "Politics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a constitution?",
+      "correct": "A document outlining the fundamental laws and principles of a state",
+      "answers": [
+        "A list of cabinet ministers",
+        "A document outlining the fundamental laws and principles of a state",
+        "A record of election results",
+        "A treaty between two countries"
+      ],
+      "category": "Politics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the difference between a parliamentary and a presidential system?",
+      "correct": "In a parliamentary system the executive is drawn from the legislature; in a presidential system they are separate",
+      "answers": [
+        "Parliamentary systems have elections; presidential systems do not",
+        "In a parliamentary system the executive is drawn from the legislature; in a presidential system they are separate",
+        "Presidential systems have stronger judiciaries",
+        "Parliamentary systems require proportional representation"
+      ],
+      "category": "Politics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What political ideology advocates for minimal government intervention in the economy?",
+      "correct": "Libertarianism / Classical liberalism",
+      "answers": [
+        "Socialism",
+        "Conservatism",
+        "Libertarianism / Classical liberalism",
+        "Social democracy"
+      ],
+      "category": "Politics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is gerrymandering?",
+      "correct": "Manipulating electoral boundaries to favour a particular party",
+      "answers": [
+        "Voter suppression through identification laws",
+        "Manipulating electoral boundaries to favour a particular party",
+        "Buying votes with government contracts",
+        "Delaying election results"
+      ],
+      "category": "Politics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does the term 'veto' mean in a political context?",
+      "correct": "The power to unilaterally reject a decision or proposal",
+      "answers": [
+        "A formal vote of approval",
+        "The power to unilaterally reject a decision or proposal",
+        "A declaration of war",
+        "An executive order"
+      ],
+      "category": "Politics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a 'hung parliament'?",
+      "correct": "A parliament where no single party has an outright majority",
+      "answers": [
+        "A parliament that has overstayed its term",
+        "A parliament where no single party has an outright majority",
+        "A parliament suspended by the executive",
+        "A parliament with equal numbers of seats for two parties"
+      ],
+      "category": "Politics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the concept of 'soft power' in international relations?",
+      "correct": "Influencing other countries through culture, values, and diplomacy rather than force",
+      "answers": [
+        "Military alliances that avoid direct conflict",
+        "Influencing other countries through culture, values, and diplomacy rather than force",
+        "Economic sanctions imposed on rival nations",
+        "Covert intelligence operations abroad"
+      ],
+      "category": "Politics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is proportional representation in electoral systems?",
+      "correct": "A system where parties win seats in proportion to their share of votes",
+      "answers": [
+        "Every citizen votes directly on laws",
+        "A system where parties win seats in proportion to their share of votes",
+        "The winner-takes-all electoral method",
+        "A system with mandatory voting"
+      ],
+      "category": "Politics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is federalism?",
+      "correct": "A system where power is shared between a central government and regional governments",
+      "answers": [
+        "A government controlled entirely by elected mayors",
+        "A system where power is shared between a central government and regional governments",
+        "A single unified national government",
+        "A government where the military holds power"
+      ],
+      "category": "Politics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does the term 'populism' generally describe?",
+      "correct": "A political approach that appeals to ordinary people against an elite",
+      "answers": [
+        "A policy of open borders and free trade",
+        "A political approach that appeals to ordinary people against an elite",
+        "A centre-left economic policy",
+        "Government by popular referendum on every issue"
+      ],
+      "category": "Politics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What was the Cold War?",
+      "correct": "A period of geopolitical tension between the USA and USSR from 1947 to 1991",
+      "answers": [
+        "A series of economic trade wars in the 1930s",
+        "A period of geopolitical tension between the USA and USSR from 1947 to 1991",
+        "A diplomatic freeze between Europe and China",
+        "A nuclear arms race between NATO countries"
+      ],
+      "category": "Politics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the Westphalian concept of state sovereignty?",
+      "correct": "Each state has exclusive authority within its borders and non-interference from others",
+      "answers": [
+        "States derive legitimacy from their citizens through elections",
+        "Each state has exclusive authority within its borders and non-interference from others",
+        "International law overrides national law",
+        "States share sovereignty through multilateral treaties"
+      ],
+      "category": "Politics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is Realpolitik?",
+      "correct": "Politics based on practical power considerations rather than ideology or ethics",
+      "answers": [
+        "A German form of democratic governance",
+        "Politics based on practical power considerations rather than ideology or ethics",
+        "A conservative political philosophy",
+        "Coalition government in multi-party systems"
+      ],
+      "category": "Politics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does the principal-agent problem mean in political science?",
+      "correct": "When an agent (e.g. politician) acts in their own interest rather than the principal's (e.g. voter)",
+      "answers": [
+        "The tension between federal and state governments",
+        "When an agent (e.g. politician) acts in their own interest rather than the principal's (e.g. voter)",
+        "The challenge of delegating authority in bureaucracies",
+        "The difficulty of forming majority coalitions"
+      ],
+      "category": "Politics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is R2P (Responsibility to Protect)?",
+      "correct": "A principle that the international community can intervene when a state fails to protect its citizens from atrocities",
+      "answers": [
+        "A UN veto reform proposal",
+        "A principle that the international community can intervene when a state fails to protect its citizens from atrocities",
+        "A NATO mutual defence clause",
+        "A treaty on nuclear non-proliferation"
+      ],
+      "category": "Politics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the difference between negative and positive liberty?",
+      "correct": "Negative liberty is freedom from interference; positive liberty is the capacity to act freely",
+      "answers": [
+        "Negative liberty refers to opposition rights; positive liberty to governing rights",
+        "Negative liberty is freedom from interference; positive liberty is the capacity to act freely",
+        "Positive liberty is conservative; negative liberty is progressive",
+        "They are two names for the same concept"
+      ],
+      "category": "Politics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is 'path dependency' in political science?",
+      "correct": "How past decisions constrain future policy choices",
+      "answers": [
+        "A foreign policy strategy following an ally",
+        "How past decisions constrain future policy choices",
+        "The tendency of democracies to follow similar development paths",
+        "Electoral forecasting using historical data"
+      ],
+      "category": "Politics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Overton window?",
+      "correct": "The range of policies considered politically acceptable to the mainstream at a given time",
+      "answers": [
+        "A NATO surveillance system",
+        "The range of policies considered politically acceptable to the mainstream at a given time",
+        "The gap between election promises and policy delivery",
+        "A model of political radicalisation"
+      ],
+      "category": "Politics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What distinguishes a unitary state from a federal state?",
+      "correct": "In a unitary state, the central government holds supreme power; in a federal state power is constitutionally divided",
+      "answers": [
+        "Unitary states have one-party systems",
+        "In a unitary state, the central government holds supreme power; in a federal state power is constitutionally divided",
+        "Federal states have stronger judiciaries",
+        "Unitary states cannot have regional governments"
+      ],
+      "category": "Politics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is securitisation theory in international relations?",
+      "correct": "The process by which issues are framed as existential threats requiring emergency measures",
+      "answers": [
+        "The strategy of building military alliances",
+        "The process by which issues are framed as existential threats requiring emergency measures",
+        "The use of cyber weapons in geopolitical conflicts",
+        "The role of intelligence agencies in foreign policy"
+      ],
+      "category": "Politics",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does 'democratic backsliding' mean?",
+      "correct": "The gradual erosion of democratic norms and institutions in a formally democratic state",
+      "answers": [
+        "A decrease in voter turnout over time",
+        "The gradual erosion of democratic norms and institutions in a formally democratic state",
+        "The collapse of a democracy through a military coup",
+        "A policy reversal after an election defeat"
+      ],
+      "category": "Politics",
+      "difficulty": "hard"
+    }
+  ],
+  "Art": [
+    {
+      "question": "Who painted the Mona Lisa?",
+      "correct": "Leonardo da Vinci",
+      "answers": [
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Raphael",
+        "Titian"
+      ],
+      "category": "Art",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What type of art involves shaping clay or stone into three-dimensional forms?",
+      "correct": "Sculpture",
+      "answers": [
+        "Printmaking",
+        "Collage",
+        "Sculpture",
+        "Fresco"
+      ],
+      "category": "Art",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which colour is made by mixing red and blue?",
+      "correct": "Purple",
+      "answers": [
+        "Orange",
+        "Green",
+        "Purple",
+        "Brown"
+      ],
+      "category": "Art",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the ceiling of the Sistine Chapel famous for?",
+      "correct": "Michelangelo's painted frescoes",
+      "answers": [
+        "Leonardo da Vinci's murals",
+        "Michelangelo's painted frescoes",
+        "Gold leaf mosaics",
+        "Raphael's tapestries"
+      ],
+      "category": "Art",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What are the three primary colours in traditional art?",
+      "correct": "Red, yellow, blue",
+      "answers": [
+        "Red, green, blue",
+        "Red, yellow, blue",
+        "Cyan, magenta, yellow",
+        "Orange, green, purple"
+      ],
+      "category": "Art",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What tool do painters most commonly use to apply paint to a canvas?",
+      "correct": "Brush",
+      "answers": [
+        "Pencil",
+        "Roller",
+        "Brush",
+        "Sponge"
+      ],
+      "category": "Art",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who sculpted the statue of David?",
+      "correct": "Michelangelo",
+      "answers": [
+        "Donatello",
+        "Michelangelo",
+        "Bernini",
+        "Rodin"
+      ],
+      "category": "Art",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the art of beautiful handwriting called?",
+      "correct": "Calligraphy",
+      "answers": [
+        "Typography",
+        "Calligraphy",
+        "Illumination",
+        "Engraving"
+      ],
+      "category": "Art",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which famous Dutch painter cut off his own ear?",
+      "correct": "Vincent van Gogh",
+      "answers": [
+        "Rembrandt",
+        "Johannes Vermeer",
+        "Vincent van Gogh",
+        "Jan van Eyck"
+      ],
+      "category": "Art",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What movement is characterised by painting everyday life and using natural light?",
+      "correct": "Impressionism",
+      "answers": [
+        "Cubism",
+        "Surrealism",
+        "Impressionism",
+        "Expressionism"
+      ],
+      "category": "Art",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which Spanish artist co-founded Cubism?",
+      "correct": "Pablo Picasso",
+      "answers": [
+        "Salvador Dali",
+        "Pablo Picasso",
+        "Joan Miro",
+        "Francisco Goya"
+      ],
+      "category": "Art",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is chiaroscuro in art?",
+      "correct": "The technique of using strong contrasts between light and dark",
+      "answers": [
+        "Painting on wet plaster",
+        "The technique of using strong contrasts between light and dark",
+        "A method of applying colour in dots",
+        "An Italian style of landscape painting"
+      ],
+      "category": "Art",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which art movement was Salvador Dali associated with?",
+      "correct": "Surrealism",
+      "answers": [
+        "Dadaism",
+        "Surrealism",
+        "Futurism",
+        "Abstract Expressionism"
+      ],
+      "category": "Art",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the term for a painting done on wet plaster on a wall or ceiling?",
+      "correct": "Fresco",
+      "answers": [
+        "Tempera",
+        "Fresco",
+        "Encaustic",
+        "Gouache"
+      ],
+      "category": "Art",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who painted 'The Persistence of Memory' featuring melting clocks?",
+      "correct": "Salvador Dali",
+      "answers": [
+        "Rene Magritte",
+        "Max Ernst",
+        "Salvador Dali",
+        "Giorgio de Chirico"
+      ],
+      "category": "Art",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is pointillism?",
+      "correct": "A technique of painting using small, distinct dots of colour",
+      "answers": [
+        "Painting with a palette knife only",
+        "A technique of painting using small, distinct dots of colour",
+        "A method of outlining shapes in black ink",
+        "Layering translucent paint glazes"
+      ],
+      "category": "Art",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which artist is famous for 'Campbell's Soup Cans' and the Pop Art movement?",
+      "correct": "Andy Warhol",
+      "answers": [
+        "Roy Lichtenstein",
+        "Andy Warhol",
+        "Jasper Johns",
+        "Robert Rauschenberg"
+      ],
+      "category": "Art",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the Golden Ratio and how is it used in art?",
+      "correct": "A ratio of approximately 1:1.618 used to create aesthetically pleasing compositions",
+      "answers": [
+        "The ratio of pigment to binder in paint",
+        "A ratio of approximately 1:1.618 used to create aesthetically pleasing compositions",
+        "The proportion of canvas width to height",
+        "A measurement for scaling sculptures"
+      ],
+      "category": "Art",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which Japanese art form involves arranging flowers?",
+      "correct": "Ikebana",
+      "answers": [
+        "Origami",
+        "Bonsai",
+        "Ikebana",
+        "Sumi-e"
+      ],
+      "category": "Art",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is trompe l'oeil?",
+      "correct": "A technique creating a realistic illusion of three-dimensional space on a flat surface",
+      "answers": [
+        "A French term for abstract painting",
+        "A technique creating a realistic illusion of three-dimensional space on a flat surface",
+        "Painting on silk fabric",
+        "A method of sculpting in relief"
+      ],
+      "category": "Art",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the main philosophical idea behind Dadaism?",
+      "correct": "Rejection of logic and bourgeois values through nonsense and anti-art",
+      "answers": [
+        "Celebrating industrial progress through art",
+        "Rejection of logic and bourgeois values through nonsense and anti-art",
+        "Expressing subconscious thought through dreamlike imagery",
+        "Returning to classical Greek and Roman aesthetics"
+      ],
+      "category": "Art",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What technique did Jan van Eyck perfect that revolutionised European painting?",
+      "correct": "Oil painting on panel",
+      "answers": [
+        "Fresco on dry plaster",
+        "Oil painting on panel",
+        "Engraving on copper plates",
+        "Tempera on canvas"
+      ],
+      "category": "Art",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the concept of the 'readymade' associated with Marcel Duchamp?",
+      "correct": "Presenting manufactured everyday objects as art without modification",
+      "answers": [
+        "Tracing from photographs to create realism",
+        "Presenting manufactured everyday objects as art without modification",
+        "Using industrial materials to replace traditional paint",
+        "Mass-producing copies of classic artworks"
+      ],
+      "category": "Art",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is negative space in art?",
+      "correct": "The space around and between the subjects of an image",
+      "answers": [
+        "Dark areas created by shadow",
+        "The space around and between the subjects of an image",
+        "Areas of a canvas left unpainted",
+        "The background of a portrait painting"
+      ],
+      "category": "Art",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which art movement rejected traditional aesthetics in response to WWI's devastation?",
+      "correct": "Dadaism",
+      "answers": [
+        "Expressionism",
+        "Dadaism",
+        "Futurism",
+        "Constructivism"
+      ],
+      "category": "Art",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the term for a recurring symbol or motif in art that carries deeper meaning?",
+      "correct": "Iconography",
+      "answers": [
+        "Allegory",
+        "Iconography",
+        "Semiotics",
+        "Symbolism"
+      ],
+      "category": "Art",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What was the Bauhaus school known for?",
+      "correct": "Combining fine art with functional design and crafts",
+      "answers": [
+        "Abstract expressionist painting",
+        "Combining fine art with functional design and crafts",
+        "Photorealist sculpture",
+        "Post-impressionist landscape painting"
+      ],
+      "category": "Art",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who developed the theory of colour contrast used by modern artists and designers?",
+      "correct": "Josef Albers",
+      "answers": [
+        "Paul Cezanne",
+        "Josef Albers",
+        "Wassily Kandinsky",
+        "Piet Mondrian"
+      ],
+      "category": "Art",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is ekphrasis?",
+      "correct": "A written description or response to a work of visual art",
+      "answers": [
+        "The technique of painting on ceramic",
+        "A written description or response to a work of visual art",
+        "The use of symbols to replace words in medieval art",
+        "A form of performance art"
+      ],
+      "category": "Art",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What distinguishes High Renaissance art from Early Renaissance art?",
+      "correct": "High Renaissance shows greater idealism, harmony, and mastery of technique",
+      "answers": [
+        "High Renaissance uses brighter colours",
+        "High Renaissance shows greater idealism, harmony, and mastery of technique",
+        "Early Renaissance is more realistic than High Renaissance",
+        "High Renaissance avoided religious subjects"
+      ],
+      "category": "Art",
+      "difficulty": "hard"
+    }
+  ],
+  "Animals": [
+    {
+      "question": "What is the fastest land animal?",
+      "correct": "Cheetah",
+      "answers": [
+        "Lion",
+        "Cheetah",
+        "Greyhound",
+        "Pronghorn"
+      ],
+      "category": "Animals",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many legs does a spider have?",
+      "correct": "8",
+      "answers": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "category": "Animals",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What do you call a baby cat?",
+      "correct": "Kitten",
+      "answers": [
+        "Cub",
+        "Pup",
+        "Kitten",
+        "Lamb"
+      ],
+      "category": "Animals",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which animal is the largest living land animal?",
+      "correct": "African elephant",
+      "answers": [
+        "White rhinoceros",
+        "Hippopotamus",
+        "African elephant",
+        "Giraffe"
+      ],
+      "category": "Animals",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What type of animal is a frog?",
+      "correct": "Amphibian",
+      "answers": [
+        "Reptile",
+        "Fish",
+        "Amphibian",
+        "Mammal"
+      ],
+      "category": "Animals",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "correct": "Parrot",
+      "answers": [
+        "Crow",
+        "Starling",
+        "Parrot",
+        "Mynah bird"
+      ],
+      "category": "Animals",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a group of lions called?",
+      "correct": "Pride",
+      "answers": [
+        "Pack",
+        "Herd",
+        "Pride",
+        "Colony"
+      ],
+      "category": "Animals",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which ocean animal is the largest in the world?",
+      "correct": "Blue whale",
+      "answers": [
+        "Sperm whale",
+        "Whale shark",
+        "Blue whale",
+        "Giant squid"
+      ],
+      "category": "Animals",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What do carnivores eat?",
+      "correct": "Meat",
+      "answers": [
+        "Plants",
+        "Insects",
+        "Meat",
+        "Both plants and meat"
+      ],
+      "category": "Animals",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the only mammal capable of true flight?",
+      "correct": "Bat",
+      "answers": [
+        "Flying squirrel",
+        "Bat",
+        "Sugar glider",
+        "Colugos"
+      ],
+      "category": "Animals",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the process by which a caterpillar transforms into a butterfly called?",
+      "correct": "Metamorphosis",
+      "answers": [
+        "Symbiosis",
+        "Metamorphosis",
+        "Hibernation",
+        "Moulting"
+      ],
+      "category": "Animals",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which animal has the longest gestation period?",
+      "correct": "African elephant (22 months)",
+      "answers": [
+        "Giraffe (15 months)",
+        "Blue whale (12 months)",
+        "African elephant (22 months)",
+        "Sperm whale (19 months)"
+      ],
+      "category": "Animals",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is echolocation used for by bats and dolphins?",
+      "correct": "Navigating and locating prey using reflected sound waves",
+      "answers": [
+        "Communicating with mates",
+        "Navigating and locating prey using reflected sound waves",
+        "Sensing magnetic fields",
+        "Detecting electrical signals"
+      ],
+      "category": "Animals",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the term for an animal that eats both plants and meat?",
+      "correct": "Omnivore",
+      "answers": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Detritivore"
+      ],
+      "category": "Animals",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which snake is the longest in the world?",
+      "correct": "Reticulated python",
+      "answers": [
+        "Anaconda",
+        "King cobra",
+        "Reticulated python",
+        "African rock python"
+      ],
+      "category": "Animals",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is migration in the context of animals?",
+      "correct": "Seasonal movement from one region to another for breeding or food",
+      "answers": [
+        "The hibernation of animals in winter",
+        "Seasonal movement from one region to another for breeding or food",
+        "Animals changing colour to match their environment",
+        "The process of evolving into a new species"
+      ],
+      "category": "Animals",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What are the four chambers of a cow's stomach?",
+      "correct": "Rumen, Reticulum, Omasum, Abomasum",
+      "answers": [
+        "Stomach, Duodenum, Jejunum, Ileum",
+        "Rumen, Reticulum, Omasum, Abomasum",
+        "Crop, Gizzard, Proventriculus, Intestine",
+        "Fore-stomach, Mid-stomach, Hind-stomach, True stomach"
+      ],
+      "category": "Animals",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the name of the hard outer covering that protects insects?",
+      "correct": "Exoskeleton",
+      "answers": [
+        "Carapace",
+        "Shell",
+        "Exoskeleton",
+        "Cuticle"
+      ],
+      "category": "Animals",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which fish is famous for swimming upstream to spawn?",
+      "correct": "Salmon",
+      "answers": [
+        "Trout",
+        "Salmon",
+        "Tuna",
+        "Eel"
+      ],
+      "category": "Animals",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the function of a peacock's tail feathers?",
+      "correct": "Attracting mates through display",
+      "answers": [
+        "Camouflage in tall grass",
+        "Attracting mates through display",
+        "Temperature regulation",
+        "Warning predators of toxicity"
+      ],
+      "category": "Animals",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is convergent evolution?",
+      "correct": "When unrelated species independently evolve similar traits due to similar environments",
+      "answers": [
+        "When two species evolve from the same ancestor",
+        "When unrelated species independently evolve similar traits due to similar environments",
+        "When a species rapidly adapts to a new environment",
+        "When species evolve to look more different from each other"
+      ],
+      "category": "Animals",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is sexual selection in evolutionary biology?",
+      "correct": "Natural selection driven by competition for mates rather than survival",
+      "answers": [
+        "The genetic determination of biological sex",
+        "Natural selection driven by competition for mates rather than survival",
+        "The evolution of reproductive organs",
+        "Selective breeding by humans"
+      ],
+      "category": "Animals",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the symbiotic relationship between clownfish and sea anemones?",
+      "correct": "Mutualism — both benefit; the fish gets shelter and the anemone gets cleaned",
+      "answers": [
+        "Parasitism — the fish harms the anemone",
+        "Mutualism — both benefit; the fish gets shelter and the anemone gets cleaned",
+        "Commensalism — only the fish benefits",
+        "Competition — they both hunt the same prey"
+      ],
+      "category": "Animals",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the function of the lateral line system in fish?",
+      "correct": "Detecting vibrations and pressure changes in the surrounding water",
+      "answers": [
+        "Filtering oxygen from water",
+        "Detecting vibrations and pressure changes in the surrounding water",
+        "Regulating buoyancy",
+        "Navigating using the Earth's magnetic field"
+      ],
+      "category": "Animals",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is Batesian mimicry?",
+      "correct": "A harmless species mimicking the appearance of a harmful species to deter predators",
+      "answers": [
+        "Two harmful species evolving similar warning colours",
+        "A harmless species mimicking the appearance of a harmful species to deter predators",
+        "Prey animals mimicking their environment",
+        "An animal changing colour when threatened"
+      ],
+      "category": "Animals",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is kin selection in evolutionary theory?",
+      "correct": "Altruistic behaviour that increases the reproductive success of relatives",
+      "answers": [
+        "Animals choosing mates with similar genetics",
+        "Altruistic behaviour that increases the reproductive success of relatives",
+        "The preference of animals for their own offspring",
+        "Competition between siblings for parental resources"
+      ],
+      "category": "Animals",
+      "difficulty": "hard"
+    },
+    {
+      "question": "How do mantis shrimps perceive colour differently from humans?",
+      "correct": "They have 16 types of colour receptors compared to humans' 3",
+      "answers": [
+        "They see only in ultraviolet light",
+        "They have 16 types of colour receptors compared to humans' 3",
+        "They are completely colour-blind",
+        "They can see polarised light but not standard colours"
+      ],
+      "category": "Animals",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the biological significance of the tardigrade's cryptobiosis?",
+      "correct": "It allows tardigrades to survive extreme conditions by entering a near-death suspended state",
+      "answers": [
+        "It allows them to reproduce asexually under stress",
+        "It allows tardigrades to survive extreme conditions by entering a near-death suspended state",
+        "It gives them resistance to radiation through DNA repair proteins",
+        "It is a form of seasonal hibernation unique to invertebrates"
+      ],
+      "category": "Animals",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the prisoner's dilemma and how does it apply to animal behaviour?",
+      "correct": "It models cooperation vs defection; animals often cooperate when interactions repeat",
+      "answers": [
+        "It explains why animals form hierarchical groups",
+        "It models cooperation vs defection; animals often cooperate when interactions repeat",
+        "It describes how animals compete for limited resources",
+        "It explains predator-prey population cycles"
+      ],
+      "category": "Animals",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is Hamilton's Rule in evolutionary biology?",
+      "correct": "Altruism evolves when rB > C (relatedness × benefit > cost)",
+      "answers": [
+        "Natural selection favours the most aggressive individuals",
+        "Altruism evolves when rB > C (relatedness × benefit > cost)",
+        "Larger body size is always selected for in cold climates",
+        "Species diversify faster on islands than continents"
+      ],
+      "category": "Animals",
+      "difficulty": "hard"
+    }
+  ],
+  "Vehicles": [
+    {
+      "question": "What does SUV stand for?",
+      "correct": "Sport Utility Vehicle",
+      "answers": [
+        "Super Urban Vehicle",
+        "Sport Utility Vehicle",
+        "Standard Utility Van",
+        "Suburban Utility Vehicle"
+      ],
+      "category": "Vehicles",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What type of fuel does a diesel engine use?",
+      "correct": "Diesel",
+      "answers": [
+        "Petrol",
+        "Diesel",
+        "Kerosene",
+        "LPG"
+      ],
+      "category": "Vehicles",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many wheels does a standard bicycle have?",
+      "correct": "2",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "category": "Vehicles",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the primary purpose of a vehicle's brake system?",
+      "correct": "To slow down or stop the vehicle",
+      "answers": [
+        "To steer the vehicle",
+        "To slow down or stop the vehicle",
+        "To change gears",
+        "To absorb road bumps"
+      ],
+      "category": "Vehicles",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does 'EV' stand for in the automotive industry?",
+      "correct": "Electric Vehicle",
+      "answers": [
+        "Enhanced Vehicle",
+        "Electric Vehicle",
+        "Economy Variant",
+        "Exterior Version"
+      ],
+      "category": "Vehicles",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which country invented the automobile?",
+      "correct": "Germany",
+      "answers": [
+        "United States",
+        "France",
+        "Germany",
+        "United Kingdom"
+      ],
+      "category": "Vehicles",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the purpose of a car's radiator?",
+      "correct": "To cool the engine by dissipating heat",
+      "answers": [
+        "To filter engine oil",
+        "To cool the engine by dissipating heat",
+        "To convert fuel into energy",
+        "To supply air to the tyres"
+      ],
+      "category": "Vehicles",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does ABS stand for in modern cars?",
+      "correct": "Anti-lock Braking System",
+      "answers": [
+        "Automatic Brake Support",
+        "Anti-lock Braking System",
+        "Advanced Brake Safety",
+        "Automated Braking Sensor"
+      ],
+      "category": "Vehicles",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the function of a vehicle's clutch?",
+      "correct": "To connect and disconnect the engine from the transmission",
+      "answers": [
+        "To control engine speed",
+        "To connect and disconnect the engine from the transmission",
+        "To apply the handbrake",
+        "To regulate fuel injection"
+      ],
+      "category": "Vehicles",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What type of vehicle is the Boeing 747?",
+      "correct": "Commercial passenger aircraft",
+      "answers": [
+        "Military bomber",
+        "Commercial passenger aircraft",
+        "Cargo helicopter",
+        "Private jet"
+      ],
+      "category": "Vehicles",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the difference between a two-stroke and a four-stroke engine?",
+      "correct": "A two-stroke completes a power cycle in two piston movements; a four-stroke needs four",
+      "answers": [
+        "A two-stroke has two cylinders; a four-stroke has four",
+        "A two-stroke completes a power cycle in two piston movements; a four-stroke needs four",
+        "A two-stroke uses diesel; a four-stroke uses petrol",
+        "A two-stroke is electric; a four-stroke is combustion"
+      ],
+      "category": "Vehicles",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is torque in the context of vehicle engines?",
+      "correct": "The rotational force produced by the engine",
+      "answers": [
+        "The maximum speed of the engine",
+        "The rotational force produced by the engine",
+        "The fuel efficiency of the engine",
+        "The weight the engine can bear"
+      ],
+      "category": "Vehicles",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does the term 'aerodynamics' mean for vehicles?",
+      "correct": "The study and design of how air flows around a vehicle to reduce drag",
+      "answers": [
+        "The weight distribution of the vehicle",
+        "The study and design of how air flows around a vehicle to reduce drag",
+        "The suspension system of the vehicle",
+        "The braking performance at high speeds"
+      ],
+      "category": "Vehicles",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is regenerative braking in electric vehicles?",
+      "correct": "Converting kinetic energy back into electrical energy when braking",
+      "answers": [
+        "A type of emergency braking system",
+        "Converting kinetic energy back into electrical energy when braking",
+        "Using the engine to slow the car without brakes",
+        "A brake cooling system using water"
+      ],
+      "category": "Vehicles",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does the gear ratio in a vehicle transmission determine?",
+      "correct": "The relationship between engine RPM and wheel speed",
+      "answers": [
+        "The maximum fuel efficiency",
+        "The relationship between engine RPM and wheel speed",
+        "The load the vehicle can carry",
+        "The top speed the vehicle can reach"
+      ],
+      "category": "Vehicles",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the Wankel engine?",
+      "correct": "A rotary engine using an eccentric rotor instead of pistons",
+      "answers": [
+        "A type of diesel engine used in heavy trucks",
+        "A rotary engine using an eccentric rotor instead of pistons",
+        "An early steam-powered engine design",
+        "A turbocharged four-cylinder layout"
+      ],
+      "category": "Vehicles",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is ground clearance in a vehicle?",
+      "correct": "The distance between the lowest point of the vehicle and the ground",
+      "answers": [
+        "The minimum safe following distance",
+        "The distance between the lowest point of the vehicle and the ground",
+        "The turning radius of the vehicle",
+        "The height of the roof above the driver's head"
+      ],
+      "category": "Vehicles",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a turbocharger?",
+      "correct": "A device that forces more air into the engine to increase power output",
+      "answers": [
+        "A type of transmission system",
+        "A device that forces more air into the engine to increase power output",
+        "A component that reduces exhaust emissions",
+        "A system for cooling the engine under load"
+      ],
+      "category": "Vehicles",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the purpose of a differential in a vehicle?",
+      "correct": "To allow wheels on the same axle to rotate at different speeds when cornering",
+      "answers": [
+        "To boost engine power on steep inclines",
+        "To allow wheels on the same axle to rotate at different speeds when cornering",
+        "To reduce tyre wear on straight roads",
+        "To lock the transmission in four-wheel drive"
+      ],
+      "category": "Vehicles",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the advantage of a hybrid vehicle over a purely combustion engine vehicle?",
+      "correct": "It uses an electric motor alongside the combustion engine to improve fuel efficiency",
+      "answers": [
+        "It produces zero emissions at all times",
+        "It uses an electric motor alongside the combustion engine to improve fuel efficiency",
+        "It requires no maintenance",
+        "It has a higher top speed"
+      ],
+      "category": "Vehicles",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the Otto cycle in thermodynamics?",
+      "correct": "The idealised thermodynamic cycle for a four-stroke petrol engine",
+      "answers": [
+        "The cycle used in diesel engines",
+        "The idealised thermodynamic cycle for a four-stroke petrol engine",
+        "A theory of aerodynamic efficiency",
+        "The power cycle of a jet turbine"
+      ],
+      "category": "Vehicles",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the significance of the coefficient of drag (Cd) in vehicle design?",
+      "correct": "It quantifies aerodynamic resistance; lower values mean less drag and better fuel efficiency",
+      "answers": [
+        "It measures the grip of tyres on wet surfaces",
+        "It quantifies aerodynamic resistance; lower values mean less drag and better fuel efficiency",
+        "It determines the weight-to-power ratio",
+        "It measures heat dissipation in the engine"
+      ],
+      "category": "Vehicles",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is brake fade and how does it occur?",
+      "correct": "Reduction in braking force due to overheating of brake components",
+      "answers": [
+        "Gradual wear of brake pads over time",
+        "Reduction in braking force due to overheating of brake components",
+        "Loss of hydraulic pressure in brake lines",
+        "Vibration in the brake disc at high speed"
+      ],
+      "category": "Vehicles",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the function of an active suspension system?",
+      "correct": "Using sensors and actuators to adjust suspension in real time for optimal handling",
+      "answers": [
+        "Absorbing road bumps using pneumatic springs",
+        "Using sensors and actuators to adjust suspension in real time for optimal handling",
+        "Lowering the vehicle automatically at high speed",
+        "Stiffening the chassis during cornering"
+      ],
+      "category": "Vehicles",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Carnot efficiency limit in engines?",
+      "correct": "The maximum theoretical efficiency of any heat engine based on temperature difference",
+      "answers": [
+        "The minimum fuel consumption at constant speed",
+        "The maximum theoretical efficiency of any heat engine based on temperature difference",
+        "The threshold beyond which friction losses dominate",
+        "The maximum compression ratio before engine knock"
+      ],
+      "category": "Vehicles",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What causes engine knock in petrol engines?",
+      "correct": "Premature detonation of the air-fuel mixture before the spark plug fires",
+      "answers": [
+        "Insufficient lubrication in the cylinder",
+        "Premature detonation of the air-fuel mixture before the spark plug fires",
+        "Excessive RPM causing resonance in the crankshaft",
+        "Contaminated fuel blocking the injectors"
+      ],
+      "category": "Vehicles",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the difference between understeer and oversteer in vehicle dynamics?",
+      "correct": "Understeer is when the front loses grip and the car goes wide; oversteer is when the rear loses grip",
+      "answers": [
+        "Understeer is too much braking; oversteer is too little",
+        "Understeer is when the front loses grip and the car goes wide; oversteer is when the rear loses grip",
+        "Oversteer occurs in front-wheel drive; understeer in rear-wheel drive",
+        "They are opposites only experienced in racing cars"
+      ],
+      "category": "Vehicles",
+      "difficulty": "hard"
+    },
+    {
+      "question": "How does a VTEC engine system work?",
+      "correct": "It switches between different camshaft profiles at high RPM to improve power",
+      "answers": [
+        "It varies the turbo boost pressure based on speed",
+        "It switches between different camshaft profiles at high RPM to improve power",
+        "It shuts down cylinders under low load conditions",
+        "It adjusts fuel injection timing electronically"
+      ],
+      "category": "Vehicles",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the purpose of an LSD (Limited Slip Differential)?",
+      "correct": "To limit the speed difference between wheels on the same axle, improving traction",
+      "answers": [
+        "To reduce fuel consumption at highway speeds",
+        "To limit the speed difference between wheels on the same axle, improving traction",
+        "To switch between two-wheel and four-wheel drive",
+        "To prevent wheel spin on dry surfaces at low speeds"
+      ],
+      "category": "Vehicles",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is fly-by-wire in aircraft and modern vehicles?",
+      "correct": "Electronic systems replacing direct mechanical linkages between controls and actuators",
+      "answers": [
+        "Remote control technology for unmanned vehicles",
+        "Electronic systems replacing direct mechanical linkages between controls and actuators",
+        "A wireless communication system between driver and navigation",
+        "An automated braking response to obstacles"
+      ],
+      "category": "Vehicles",
+      "difficulty": "hard"
+    }
+  ],
+  "Sports": [
+    {
+      "question": "How many players are on a standard football (soccer) team on the field?",
+      "correct": "11",
+      "answers": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "category": "Sports",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In which sport would you perform a slam dunk?",
+      "correct": "Basketball",
+      "answers": [
+        "Volleyball",
+        "Handball",
+        "Basketball",
+        "Rugby"
+      ],
+      "category": "Sports",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many events are in a decathlon?",
+      "correct": "10",
+      "answers": [
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "category": "Sports",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the highest possible score in a single turn in bowling?",
+      "correct": "300",
+      "answers": [
+        "200",
+        "250",
+        "300",
+        "360"
+      ],
+      "category": "Sports",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In tennis, what is the score after both players have won three points?",
+      "correct": "Deuce",
+      "answers": [
+        "40-40",
+        "Deuce",
+        "Advantage",
+        "Love-40"
+      ],
+      "category": "Sports",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How long is a standard marathon race?",
+      "correct": "42.195 km",
+      "answers": [
+        "40 km",
+        "42 km",
+        "42.195 km",
+        "44 km"
+      ],
+      "category": "Sports",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which country invented basketball?",
+      "correct": "United States (Canada-born inventor)",
+      "answers": [
+        "United States (Canada-born inventor)",
+        "United Kingdom",
+        "Australia",
+        "Brazil"
+      ],
+      "category": "Sports",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In cricket, how many balls are in a standard over?",
+      "correct": "6",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "category": "Sports",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the term for a score of zero in tennis?",
+      "correct": "Love",
+      "answers": [
+        "Nil",
+        "Zero",
+        "Love",
+        "Blank"
+      ],
+      "category": "Sports",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which sport takes place in a velodrome?",
+      "correct": "Track cycling",
+      "answers": [
+        "Swimming",
+        "Gymnastics",
+        "Track cycling",
+        "Athletics"
+      ],
+      "category": "Sports",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the offside rule in football (soccer)?",
+      "correct": "A player is offside if nearer the opponent's goal than both the ball and second-to-last defender when the ball is played",
+      "answers": [
+        "A player cannot stand inside the penalty box",
+        "A player is offside if nearer the opponent's goal than both the ball and second-to-last defender when the ball is played",
+        "A player cannot receive a pass behind the halfway line",
+        "A player cannot be in the goal area unless taking a shot"
+      ],
+      "category": "Sports",
+      "difficulty": "medium"
+    },
+    {
+      "question": "How many Grand Slam tournaments are there in tennis?",
+      "correct": "4",
+      "answers": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "category": "Sports",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does a yellow card signify in football?",
+      "correct": "A formal warning to the player",
+      "answers": [
+        "Immediate expulsion from the game",
+        "A formal warning to the player",
+        "A penalty kick is awarded",
+        "A free kick from the centre"
+      ],
+      "category": "Sports",
+      "difficulty": "medium"
+    },
+    {
+      "question": "In which sport would you use a shuttlecock?",
+      "correct": "Badminton",
+      "answers": [
+        "Squash",
+        "Badminton",
+        "Lacrosse",
+        "Padel"
+      ],
+      "category": "Sports",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does ERA stand for in baseball statistics?",
+      "correct": "Earned Run Average",
+      "answers": [
+        "Extended Run Analysis",
+        "Earned Run Average",
+        "Effective Run Attempts",
+        "Error Rate Average"
+      ],
+      "category": "Sports",
+      "difficulty": "medium"
+    },
+    {
+      "question": "In the Olympics, what does the word 'Olympiad' technically refer to?",
+      "correct": "The four-year period between Olympic Games",
+      "answers": [
+        "The opening ceremony",
+        "The four-year period between Olympic Games",
+        "The athletes' village",
+        "The final medal tally"
+      ],
+      "category": "Sports",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a hat-trick in football?",
+      "correct": "Three goals scored by one player in a single match",
+      "answers": [
+        "Three consecutive wins in a tournament",
+        "Three goals scored by one player in a single match",
+        "Scoring in three different ways in one game",
+        "Winning a game without conceding a goal"
+      ],
+      "category": "Sports",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the Duckworth-Lewis method used for?",
+      "correct": "Adjusting target scores in rain-interrupted cricket matches",
+      "answers": [
+        "Measuring ball tampering in cricket",
+        "Adjusting target scores in rain-interrupted cricket matches",
+        "Calculating bowling strike rates",
+        "Determining the toss winner in tied matches"
+      ],
+      "category": "Sports",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a birdie in golf?",
+      "correct": "One stroke under par for a hole",
+      "answers": [
+        "One stroke over par",
+        "Completing a hole in one shot",
+        "One stroke under par for a hole",
+        "Two strokes under par"
+      ],
+      "category": "Sports",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the purpose of the transfer window in professional football?",
+      "correct": "A set period when clubs can buy and sell players",
+      "answers": [
+        "When players can renegotiate contracts",
+        "A set period when clubs can buy and sell players",
+        "When international call-ups are processed",
+        "A period for youth academy promotions"
+      ],
+      "category": "Sports",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the biomechanical principle behind why sprinters drive their arms hard during a race?",
+      "correct": "Arm movement creates angular momentum that balances and propels the leg drive",
+      "answers": [
+        "It reduces air resistance by streamlining the torso",
+        "Arm movement creates angular momentum that balances and propels the leg drive",
+        "Pumping the arms increases heart rate and oxygen uptake",
+        "It prevents lateral swaying that would slow the runner"
+      ],
+      "category": "Sports",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the significance of VO2 max in endurance sports?",
+      "correct": "It measures the maximum rate at which the body can consume oxygen during intense exercise",
+      "answers": [
+        "It measures lactic acid threshold in muscles",
+        "It measures the maximum rate at which the body can consume oxygen during intense exercise",
+        "It indicates the efficiency of a runner's stride",
+        "It determines the maximum heart rate during exercise"
+      ],
+      "category": "Sports",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Magnus effect in sports?",
+      "correct": "The curve of a spinning ball caused by pressure differences created by its rotation",
+      "answers": [
+        "The friction of a ball bouncing on a surface",
+        "The curve of a spinning ball caused by pressure differences created by its rotation",
+        "The deceleration of a ball due to air resistance",
+        "The effect of altitude on ball trajectory"
+      ],
+      "category": "Sports",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is periodisation in sports training?",
+      "correct": "Systematically varying training load and intensity in cycles to optimise performance",
+      "answers": [
+        "Training exclusively during a specific season",
+        "Systematically varying training load and intensity in cycles to optimise performance",
+        "Dividing a team's roles into specialised positions",
+        "The scheduling of rest days to prevent overtraining"
+      ],
+      "category": "Sports",
+      "difficulty": "hard"
+    },
+    {
+      "question": "In game theory terms, how do penalty kicks in football represent a mixed strategy equilibrium?",
+      "correct": "Both kicker and goalkeeper must randomise direction to prevent being predicted",
+      "answers": [
+        "The goalkeeper always wins if they commit early",
+        "Both kicker and goalkeeper must randomise direction to prevent being predicted",
+        "The kicker has an inherent advantage so referees compensate",
+        "Success depends entirely on speed of movement"
+      ],
+      "category": "Sports",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the Yerkes-Dodson law's implication for athletic performance?",
+      "correct": "There is an optimal level of arousal for peak performance; too much or too little hurts performance",
+      "answers": [
+        "Higher anxiety always improves performance in elite athletes",
+        "There is an optimal level of arousal for peak performance; too much or too little hurts performance",
+        "Physical training eliminates the effect of mental pressure",
+        "Arousal only matters in individual sports not team sports"
+      ],
+      "category": "Sports",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the purpose of altitude training in endurance sports?",
+      "correct": "Low oxygen at altitude stimulates more red blood cell production, boosting oxygen delivery at sea level",
+      "answers": [
+        "Training in thin air reduces body weight through increased sweating",
+        "Low oxygen at altitude stimulates more red blood cell production, boosting oxygen delivery at sea level",
+        "Altitude increases muscle fibre recruitment through greater effort",
+        "Heat from low altitude locations is avoided to prevent fatigue"
+      ],
+      "category": "Sports",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the concept of 'marginal gains' in elite sport?",
+      "correct": "Aggregating many small improvements across all aspects to achieve a significant overall performance gain",
+      "answers": [
+        "Focusing only on an athlete's strongest skill",
+        "Aggregating many small improvements across all aspects to achieve a significant overall performance gain",
+        "Reducing training volume to prevent fatigue",
+        "Targeting one specific weakness to improve rankings"
+      ],
+      "category": "Sports",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is proprioception and why is it important for athletes?",
+      "correct": "The body's sense of its own position and movement, crucial for balance and coordination",
+      "answers": [
+        "The ability to predict an opponent's movement",
+        "The body's sense of its own position and movement, crucial for balance and coordination",
+        "Muscle memory developed through repetitive training",
+        "The cardiovascular response to sudden bursts of activity"
+      ],
+      "category": "Sports",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What distinguishes fast-twitch from slow-twitch muscle fibres in athletic performance?",
+      "correct": "Fast-twitch generate more force quickly for sprinting; slow-twitch are fatigue-resistant for endurance",
+      "answers": [
+        "Fast-twitch are used for endurance; slow-twitch for power",
+        "Fast-twitch generate more force quickly for sprinting; slow-twitch are fatigue-resistant for endurance",
+        "They differ only in size not function",
+        "Slow-twitch fibres are exclusive to cardiac muscle"
+      ],
+      "category": "Sports",
+      "difficulty": "hard"
+    }
+  ]
+}

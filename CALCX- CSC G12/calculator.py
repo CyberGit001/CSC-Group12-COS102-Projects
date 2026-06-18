@@ -1,0 +1,662 @@
+import tkinter as tk
+from tkinter import ttk
+import math
+import json
+import os
+from datetime import datetime
+
+# ───────────────THEME DEFINITIONS_________
+THEMES = {
+    "dark": {
+        "bg":           "#0f0f0f",
+        "panel":        "#1a1a1a",
+        "display_bg":   "#111111",
+        "display_fg":   "#f5a623",
+        "expr_fg":      "#666666",
+        "btn_num":      "#1e1e1e",
+        "btn_num_fg":   "#e0e0e0",
+        "btn_op":       "#2a1f0a",
+        "btn_op_fg":    "#f5a623",
+        "btn_eq":       "#f5a623",
+        "btn_eq_fg":    "#0f0f0f",
+        "btn_fn":       "#161616",
+        "btn_fn_fg":    "#aaaaaa",
+        "btn_clear":    "#2a0a0a",
+        "btn_clear_fg": "#ff4444",
+        "border":       "#2a2a2a",
+        "tab_bg":       "#1a1a1a",
+        "tab_fg":       "#bbbbbb", 
+        "tab_sel":      "#f5a623",
+        "history_bg":   "#111111",
+        "history_fg":   "#cccccc",
+        "history_date": "#555555",
+        "hover_num":    "#2e2e2e",
+        "hover_op":     "#3a2f1a",
+        "hover_eq":     "#ffb84d",
+        "hover_fn":     "#262626",
+        "shadow":       "#000000",
+    },
+    "light": {
+        "bg":           "#f8f9fb",
+        "panel":        "#ffffff",
+        "display_bg":   "#ffffff",
+        "display_fg":   "#e67e00",
+        "expr_fg":      "#9a9a9a",
+        "btn_num":      "#ffffff",
+        "btn_num_fg":   "#444444",
+        "btn_op":       "#fff4e6",
+        "btn_op_fg":    "#e67e00",
+        "btn_eq":       "#e67e00",
+        "btn_eq_fg":    "#ffffff",
+        "btn_fn":       "#f2f2f2",
+        "btn_fn_fg":    "#555555",
+        "btn_clear":    "#ffe8e8",
+        "btn_clear_fg": "#d62828",
+        "border":       "#dddddd",
+        "tab_bg":       "#f8f9fb",
+        "tab_fg":       "#777777",
+        "tab_sel":      "#e67e00",
+        "history_bg":   "#ffffff",
+        "history_fg":   "#555555",
+        "history_date": "#999999",
+        "hover_num":    "#eeeeee",
+        "hover_op":     "#ffe0b3",
+        "hover_eq":     "#f28c18",
+        "hover_fn":     "#e8e8e8",
+        "shadow":       "#e0e0e0",
+    }
+}
+
+HISTORY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "calc_history.json")
+
+class CalculatorApp:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("CALCX — Advanced Calculator")
+        self.root.geometry("400x700")
+        
+        self.theme_name = "dark"
+        self.t = THEMES[self.theme_name]
+        
+        # Initialize TTK Style for Comboboxes
+        self.style = ttk.Style()
+        
+        self.expression = ""
+        self.result_shown = False
+        self.history = self._load_history()
+
+        self._build_ui()
+        self._apply_theme()
+        self.root.bind("<Key>", self._keyboard_input)
+
+    # ── PERSISTENCE ──────────────────────────
+    def _load_history(self):
+        try:
+            with open(HISTORY_FILE, "r") as f:
+                return json.load(f)
+        except:
+            return []
+
+    def _save_history(self):
+        try:
+            with open(HISTORY_FILE, "w") as f:
+                json.dump(self.history[-100:], f)
+        except:
+            pass
+
+    # ── UI BUILD ───────────────────
+    def _build_ui(self):
+        self.main_frame = tk.Frame(self.root)
+        self.main_frame.pack(fill="both", expand=True, padx=16, pady=16)
+
+        self._build_header()
+        self._build_display(self.main_frame)
+
+        self.notebook_frame = tk.Frame(self.main_frame)
+        self.notebook_frame.pack(fill="x", pady=(8, 0))
+        self._build_tabs()
+
+        self.pages_frame = tk.Frame(self.main_frame)
+        self.pages_frame.pack(fill="both", expand=True)
+        
+        self.footer_lbl = tk.Label(
+            self.main_frame,
+            text="◆ DEVELOPED BY CSC GROUP 12 ◆",
+            font=("Consolas", 10, "bold")
+        )
+        self.footer_lbl.pack(pady=(8, 0))
+
+        self.page_standard   = tk.Frame(self.pages_frame)
+        self.page_scientific = tk.Frame(self.pages_frame)
+        self.page_history    = tk.Frame(self.pages_frame)
+        self.page_converter  = tk.Frame(self.pages_frame)
+        
+        self._build_standard_page()
+        self._build_scientific_page()
+        self._build_history_page()
+        self._build_converter_page()
+
+        self.current_page = "standard"
+        self._show_page("standard")
+
+    def _build_header(self):
+        hdr = tk.Frame(self.main_frame)
+        hdr.pack(fill="x", pady=(0, 4))
+        self.header_frame = hdr 
+        self.title_lbl = tk.Label(hdr, text="CALCX", font=("Courier New", 13, "bold"))
+        self.title_lbl.pack(side="left")
+        self.theme_btn = tk.Button(
+            hdr, text="◐ THEME", font=("Courier New", 9),
+            bd=0, relief="flat", cursor="hand2",
+            command=self._toggle_theme
+        )
+        self.theme_btn.pack(side="right")
+    def _build_tabs(self):
+        self.tab_buttons = {}
+        tabs = [("standard","STD"), ("scientific","SCI"), ("history","LOG"), ("converter","CONV")]
+        for name, label in tabs:
+            btn = tk.Button(
+                self.notebook_frame, text=label,
+                font=("Courier New", 9, "bold"),
+                bd=0, relief="flat", cursor="hand2",
+                padx=12, pady=6,
+                command=lambda n=name: self._show_page(n)
+            )
+            btn.pack(side="left", padx=(0, 2))
+            self.tab_buttons[name] = btn
+    def _show_page(self, name):
+        for p in [self.page_standard, self.page_scientific, self.page_history, self.page_converter]:
+            p.pack_forget()
+        pages = {
+            "standard":   self.page_standard,
+            "scientific": self.page_scientific,
+            "history":    self.page_history,
+            "converter":  self.page_converter,
+        }
+        pages[name].pack(fill="both", expand=True, pady=(8, 0))
+        self.current_page = name
+
+        if name == "history":
+            self._refresh_history()
+        self._style_tabs(name)
+    def _style_tabs(self, active):
+        for name, btn in self.tab_buttons.items():
+            if name == active:
+                btn.configure(fg=self.t["tab_sel"], bg=self.t["panel"])
+            else:
+                btn.configure(fg=self.t["tab_fg"], bg=self.t["tab_bg"])
+    def _build_display(self, parent):
+        self.display_frame = tk.Frame(parent, pady=12, padx=14)
+        self.display_frame.pack(fill="x", pady=(0, 8))
+
+        self.expr_var = tk.StringVar(value="")
+        self.expr_lbl = tk.Label(
+            self.display_frame, textvariable=self.expr_var,
+            font=("Courier New", 11), anchor="e"
+        )
+        self.expr_lbl.pack(fill="x")
+
+        self.display_var = tk.StringVar(value="0")
+        self.display_lbl = tk.Label(
+            self.display_frame, textvariable=self.display_var,
+            font=("Courier New", 32, "bold"), anchor="e"
+        )
+        self.display_lbl.pack(fill="x")
+    def _make_btn(self, parent, text, row, col, cmd, kind="num", rowspan=1, colspan=1, width=4):
+        btn = tk.Button(
+            parent, text=text, font=("Courier New", 13, "bold"),
+            bd=0, relief="flat", highlightthickness=0,
+            takefocus=0, cursor="hand2", command=cmd
+        )
+        btn.grid(row=row, column=col, rowspan=rowspan, columnspan=colspan,
+                 padx=3, pady=3, sticky="nsew", ipady=10)
+        btn.default_kind = kind
+        btn.bind("<Enter>", self._button_hover_enter)
+        btn.bind("<Leave>", self._button_hover_leave)
+        return btn
+    def _button_hover_enter(self, event):
+        btn = event.widget
+        hover_key = f"hover_{btn.default_kind}"      
+        if hover_key in self.t:
+            btn.configure(bg=self.t[hover_key])
+        elif btn.default_kind == "clear":
+            btn.configure(bg="#ff6666")
+    def _button_hover_leave(self, event):
+        btn = event.widget
+        orig_key = f"btn_{btn.default_kind}"
+        
+        if orig_key in self.t:
+            btn.configure(bg=self.t[orig_key])
+        else:
+            btn.configure(bg=self.t["btn_num"])
+    # ── STANDARD PAGE ────────────────────────
+    def _build_standard_page(self):
+        p = self.page_standard
+        grid = tk.Frame(p)
+        grid.pack(fill="both", expand=True)
+        self.std_grid = grid
+        for c in range(4): grid.columnconfigure(c, weight=1)
+        for r in range(6): grid.rowconfigure(r, weight=1)
+        layout = [
+            ("AC",  0, 0, self._clear_all,          "clear", 1),
+            ("+/-", 0, 1, self._negate,             "fn",    1),
+            ("%",   0, 2, lambda: self._op("%"),     "fn",    1),
+            ("÷",   0, 3, lambda: self._op("/"),     "op",    1),
+            ("7",   1, 0, lambda: self._digit("7"),  "num",   1),
+            ("8",   1, 1, lambda: self._digit("8"),  "num",   1),
+            ("9",   1, 2, lambda: self._digit("9"),  "num",   1),
+            ("×",   1, 3, lambda: self._op("*"),     "op",    1),
+            ("4",   2, 0, lambda: self._digit("4"),  "num",   1),
+            ("5",   2, 1, lambda: self._digit("5"),  "num",   1),
+            ("6",   2, 2, lambda: self._digit("6"),  "num",   1),
+            ("−",   2, 3, lambda: self._op("-"),     "op",    1),
+            ("1",   3, 0, lambda: self._digit("1"),  "num",   1),
+            ("2",   3, 1, lambda: self._digit("2"),  "num",   1),
+            ("3",   3, 2, lambda: self._digit("3"),  "num",   1),
+            ("+",   3, 3, lambda: self._op("+"),     "op",    1),
+            ("0",   4, 0, lambda: self._digit("0"),  "num",   2),
+            (".",   4, 2, lambda: self._digit("."),  "num",   1),
+            ("=",   4, 3, self._equals,              "eq",    1),
+        ]
+        self.std_buttons = []
+        for text, row, col, cmd, kind, colspan in layout:
+            b = self._make_btn(grid, text, row, col, cmd, kind, colspan=colspan)
+            self.std_buttons.append((b, kind))
+        bk = self._make_btn(grid, "⌫", 5, 0, self._backspace, "fn", colspan=4)
+        self.std_buttons.append((bk, "fn"))
+    # ── SCIENTIFIC PAGE ───────────────────────
+    def _build_scientific_page(self):
+        p = self.page_scientific
+        grid = tk.Frame(p)
+        grid.pack(fill="both", expand=True)
+        self.sci_grid = grid 
+        for c in range(5): grid.columnconfigure(c, weight=1)
+        for r in range(7): grid.rowconfigure(r, weight=1)
+
+        sci_layout = [
+            ("sin",  0, 0, lambda: self._sci_fn("sin"),  "fn"),
+            ("cos",  0, 1, lambda: self._sci_fn("cos"),  "fn"),
+            ("tan",  0, 2, lambda: self._sci_fn("tan"),  "fn"),
+            ("log",  0, 3, lambda: self._sci_fn("log"),  "fn"),
+            ("ln",   0, 4, lambda: self._sci_fn("ln"),   "fn"),
+            ("x²",   1, 0, lambda: self._sci_fn("sq"),   "fn"),
+            ("x³",   1, 1, lambda: self._sci_fn("cube"), "fn"),
+            ("√x",   1, 2, lambda: self._sci_fn("sqrt"), "fn"),
+            ("1/x",  1, 3, lambda: self._sci_fn("inv"),  "fn"),
+            ("π",    1, 4, lambda: self._digit(str(math.pi)), "fn"),
+            ("AC",   2, 0, self._clear_all,              "clear"),
+            ("+/-",  2, 1, self._negate,                 "fn"),
+            ("%",    2, 2, lambda: self._op("%"),        "fn"),
+            ("÷",    2, 3, lambda: self._op("/"),        "op"),
+            ("(",    2, 4, lambda: self._digit("("),     "fn"),
+            ("7",    3, 0, lambda: self._digit("7"),     "num"),
+            ("8",    3, 1, lambda: self._digit("8"),     "num"),
+            ("9",    3, 2, lambda: self._digit("9"),     "num"),
+            ("×",    3, 3, lambda: self._op("*"),        "op"),
+            (")",    3, 4, lambda: self._digit(")"),     "fn"),
+            ("4",    4, 0, lambda: self._digit("4"),     "num"),
+            ("5",    4, 1, lambda: self._digit("5"),     "num"),
+            ("6",    4, 2, lambda: self._digit("6"),     "num"),
+            ("−",    4, 3, lambda: self._op("-"),        "op"),
+            ("eˣ",   4, 4, lambda: self._sci_fn("exp"),  "fn"),
+            ("1",    5, 0, lambda: self._digit("1"),     "num"),
+            ("2",    5, 1, lambda: self._digit("2"),     "num"),
+            ("3",    5, 2, lambda: self._digit("3"),     "num"),
+            ("+",    5, 3, lambda: self._op("+"),        "op"),
+            ("e",    5, 4, lambda: self._digit(str(math.e)), "fn"),
+            ("0",    6, 0, lambda: self._digit("0"),     "num"),
+            (".",    6, 1, lambda: self._digit("."),     "num"),
+            ("⌫",   6, 2, self._backspace,              "fn"),
+            ("=",    6, 3, self._equals,                 "eq"),
+            ("xʸ",   6, 4, lambda: self._op("**"),       "op"),
+        ]
+
+        self.sci_buttons = []
+        for text, row, col, cmd, kind in sci_layout:
+            b = self._make_btn(grid, text, row, col, cmd, kind)
+            self.sci_buttons.append((b, kind))
+
+    # ── HISTORY PAGE ─────────────────────────
+    def _build_history_page(self):
+        p = self.page_history
+        hdr = tk.Frame(p)
+        hdr.pack(fill="x", pady=(0, 6))
+        self.hist_hdr = hdr
+        
+        self.hist_title = tk.Label(hdr, text="CALCULATION LOG", font=("Courier New", 10, "bold"))
+        self.hist_title.pack(side="left")
+        
+        self.hist_clear_btn = tk.Button(
+            hdr, text="CLEAR LOG", font=("Courier New", 8),
+            bd=0, relief="flat", cursor="hand2", padx=8,
+            command=self._clear_history
+        )
+        self.hist_clear_btn.pack(side="right")
+
+        frame = tk.Frame(p)
+        frame.pack(fill="both", expand=True)
+        self.hist_frame = frame
+
+        scrollbar = tk.Scrollbar(frame)
+        scrollbar.pack(side="right", fill="y")
+
+        self.history_text = tk.Text(
+            frame, font=("Courier New", 11),
+            bd=0, relief="flat", wrap="word",
+            yscrollcommand=scrollbar.set,
+            state="disabled", width=36, height=18
+        )
+        self.history_text.pack(fill="both", expand=True, padx=8, pady=8)
+        scrollbar.config(command=self.history_text.yview)
+
+    def _refresh_history(self):
+        self.history_text.configure(state="normal")
+        self.history_text.delete("1.0", "end")
+        
+        # Tags need to be re-configured to use current theme colors
+        self.history_text.tag_configure("expr", foreground=self.t["history_fg"], font=("Courier New", 12, "bold"))
+        self.history_text.tag_configure("result", foreground=self.t["display_fg"], font=("Courier New", 14, "bold"))
+        self.history_text.tag_configure("date", foreground=self.t["history_date"], font=("Courier New", 8))
+        self.history_text.tag_configure("sep", foreground=self.t["border"])
+
+        if not self.history:
+            self.history_text.insert("end", "\n  No calculations yet.\n", "date")
+        else:
+            for item in reversed(self.history[-50:]):
+                self.history_text.insert("end", f"  {item['expr']}\n", "expr")
+                self.history_text.insert("end", f"  = {item['result']}\n", "result")
+                self.history_text.insert("end", f"  {item['time']}\n", "date")
+                self.history_text.insert("end", "  " + "─"*32 + "\n", "sep")
+        self.history_text.configure(state="disabled")
+
+    def _clear_history(self):
+        self.history = []
+        self._save_history()
+        self._refresh_history()
+
+    # ── UNIT CONVERTER PAGE ───────────────────
+    def _build_converter_page(self):
+        p = self.page_converter
+        self.conv_title_lbl = tk.Label(p, text="UNIT CONVERTER", font=("Courier New", 10, "bold"))
+        self.conv_title_lbl.pack(pady=(0, 10))
+
+        self.conv_categories = {
+            "Length":      {"m":1,"km":0.001,"cm":100,"mm":1000,"ft":3.28084,"in":39.3701,"mi":0.000621371,"yd":1.09361},
+            "Weight":      {"kg":1,"g":1000,"mg":1e6,"lb":2.20462,"oz":35.274,"t":0.001},
+            "Temperature": {"special": True},
+            "Speed":       {"m/s":1,"km/h":3.6,"mph":2.23694,"ft/s":3.28084,"knot":1.94384},
+            "Area":        {"m²":1,"km²":1e-6,"cm²":1e4,"ft²":10.7639,"acre":0.000247105,"ha":0.0001},
+        }
+
+        cat_frame = tk.Frame(p)
+        cat_frame.pack(fill="x", pady=(0, 8))
+        self.conv_cat_frame = cat_frame
+        
+        self.conv_cat = tk.StringVar(value="Length")
+        self.conv_radios = []
+        for cat in self.conv_categories:
+            rb = tk.Radiobutton(
+                cat_frame, text=cat, variable=self.conv_cat, value=cat,
+                font=("Courier New", 8), bd=0, indicatoron=False, 
+                relief="flat", padx=6, pady=4, command=self._update_conv_units
+            )
+            rb.pack(side="left", padx=2)
+            self.conv_radios.append(rb)
+
+        inp_row = tk.Frame(p)
+        inp_row.pack(fill="x", pady=4)
+        self.conv_inp_row = inp_row
+
+        self.conv_val = tk.Entry(inp_row, font=("Courier New", 16, "bold"), width=12, bd=0, relief="flat")
+        self.conv_val.pack(side="left", padx=(4, 8), ipady=8)
+        self.conv_val.insert(0, "1")
+
+        self.conv_from = ttk.Combobox(inp_row, width=8, font=("Courier New", 11), state="readonly")
+        self.conv_from.pack(side="left", padx=4)
+
+        self.conv_arrow = tk.Label(inp_row, text="→", font=("Courier New", 14))
+        self.conv_arrow.pack(side="left", padx=4)
+
+        self.conv_to = ttk.Combobox(inp_row, width=8, font=("Courier New", 11), state="readonly")
+        self.conv_to.pack(side="left", padx=4)
+
+        self.conv_result_var = tk.StringVar(value="")
+        self.conv_res_lbl = tk.Label(p, textvariable=self.conv_result_var, font=("Courier New", 20, "bold"))
+        self.conv_res_lbl.pack(pady=12)
+
+        self.conv_btn = tk.Button(
+            p, text="CONVERT", font=("Courier New", 11, "bold"),
+            bd=0, relief="flat", cursor="hand2", padx=20, pady=8,
+            command=self._do_convert
+        )
+        self.conv_btn.pack()
+        self._update_conv_units()
+
+    def _update_conv_units(self):
+        cat = self.conv_cat.get()
+        units = list(self.conv_categories[cat].keys()) if cat != "Temperature" else ["°C","°F","K"]
+        self.conv_from["values"] = units
+        self.conv_to["values"]   = units
+        self.conv_from.set(units[0])
+        self.conv_to.set(units[1] if len(units) > 1 else units[0])
+
+    def _do_convert(self):
+        try:
+            val  = float(self.conv_val.get())
+            cat  = self.conv_cat.get()
+            frm  = self.conv_from.get()
+            to   = self.conv_to.get()
+            if cat == "Temperature": result = self._convert_temp(val, frm, to)
+            else:
+                rates = self.conv_categories[cat]
+                result = val / rates[frm] * rates[to]
+            formatted = f"{result:.6g}"
+            self.conv_result_var.set(f"{formatted} {to}")
+        except:
+            self.conv_result_var.set("Invalid input")
+
+    def _convert_temp(self, val, frm, to):
+        if frm == "°F": celsius = (val - 32) * 5/9
+        elif frm == "K": celsius = val - 273.15
+        else: celsius = val
+        if to == "°F": return celsius * 9/5 + 32
+        elif to == "K": return celsius + 273.15
+        return celsius
+
+    # ── LOGIC ────────────────────────────────
+    def _digit(self, d):
+        if self.result_shown and d not in "().":
+            self.expression = ""
+            self.result_shown = False
+
+        if d == ".":
+            current_num = ""
+
+            for ch in reversed(self.expression):
+                if ch in "+-*/%()":
+                    break
+                current_num = ch + current_num
+
+            if "." in current_num:
+                return
+
+            if not current_num:
+                self.expression += "0"
+
+        self.expression += d
+        self._update_display()
+    def _op(self, op):
+        self.result_shown = False
+        if self.expression and self.expression[-1] in "+-*/%":
+            self.expression = self.expression[:-1]
+        self.expression += op
+        self._update_display()
+
+    def _clear_all(self):
+        self.expression = ""
+        self.result_shown = False
+        self.display_var.set("0")
+        self.expr_var.set("")
+
+    def _backspace(self):
+        if self.result_shown: self._clear_all(); return
+        self.expression = self.expression[:-1]
+        self._update_display()
+
+    def _negate(self):
+        try:
+            val = float(self.display_var.get())
+            self.expression = str(-val)
+            self._update_display()
+        except: pass
+
+    def _sci_fn(self, fn):
+        try:
+            val = float(self.display_var.get())
+            if fn == "sin":    result = math.sin(math.radians(val))
+            elif fn == "cos":  result = math.cos(math.radians(val))
+            elif fn == "tan":  result = math.tan(math.radians(val))
+            elif fn == "log":  result = math.log10(val)
+            elif fn == "ln":   result = math.log(val)
+            elif fn == "sq":   result = val ** 2
+            elif fn == "cube": result = val ** 3
+            elif fn == "sqrt": result = math.sqrt(val)
+            elif fn == "inv":  result = 1/val
+            elif fn == "exp":  result = math.exp(val)
+            
+            formatted = self._format_result(result)
+            self.expr_var.set(f"{fn}({val})")
+            self.display_var.set(formatted)
+            self.expression = str(result)
+            self.result_shown = True
+            self._record_history(f"{fn}({val})", formatted)
+        except: self.display_var.set("Error")
+
+    def _equals(self):
+        if not self.expression: return
+        try:
+            safe_expr = self.expression.replace("×", "*").replace("÷", "/").replace("−", "-")
+            result = eval(safe_expr)
+            formatted = self._format_result(result)
+            self.expr_var.set(self.expression + " =")
+            self.display_var.set(formatted)
+            self._record_history(self.expression, formatted)
+            self.expression = str(result)
+            self.result_shown = True
+        except: self.display_var.set("Error")
+
+    def _format_result(self, val):
+        if abs(val) > 1e12 or (0 < abs(val) < 1e-6): return f"{val:.6e}"
+        return f"{val:.10g}".rstrip('0').rstrip('.') if '.' in f"{val:.10g}" else f"{val:.10g}"
+
+    def _update_display(self):
+        self.display_var.set(self.expression if self.expression else "0")
+
+    def _record_history(self, expr, result):
+        self.history.append({"expr": expr, "result": result, "time": datetime.now().strftime("%d %b %Y  %H:%M:%S")})
+        self._save_history()
+
+    def _keyboard_input(self, event):
+        if event.char in "0123456789.": self._digit(event.char)
+        elif event.char in "+-*/%": self._op(event.char)
+        elif event.keysym == "Return": self._equals()
+        elif event.keysym == "BackSpace": self._backspace()
+        elif event.keysym == "Escape": self._clear_all()
+
+    # ── THEME ENGINE (FIXED) ──────────────────
+    def _toggle_theme(self):
+        self.theme_name = "light" if self.theme_name == "dark" else "dark"
+        self.t = THEMES[self.theme_name]
+        self._apply_theme()
+
+    def _apply_theme(self):
+        t = self.t
+        
+        # 1. Root and Main Frames
+        self.root.configure(bg=t["bg"])
+        self.main_frame.configure(bg=t["bg"])
+        self.header_frame.configure(bg=t["bg"])
+        self.display_frame.configure(bg=t["display_bg"])
+        self.notebook_frame.configure(bg=t["bg"])
+        self.pages_frame.configure(bg=t["bg"])
+        self.footer_lbl.configure(bg=t["bg"], fg=t["display_fg"])
+        
+        # 2. Page Backgrounds
+        for pg in [self.page_standard, self.page_scientific, self.page_history, self.page_converter]:
+            pg.configure(bg=t["bg"])
+
+        # 3. Labels
+        self.title_lbl.configure(bg=t["bg"], fg=t["display_fg"])
+        self.expr_lbl.configure(bg=t["display_bg"], fg=t["expr_fg"])
+        self.display_lbl.configure(bg=t["display_bg"], fg=t["display_fg"])
+        
+        # 4. Buttons
+        self.theme_btn.configure(bg=t["btn_fn"], fg=t["btn_fn_fg"])
+        
+        color_map = {
+            "num": (t["btn_num"], t["btn_num_fg"]),
+            "op": (t["btn_op"], t["btn_op_fg"]),
+            "eq": (t["btn_eq"], t["btn_eq_fg"]),
+            "fn": (t["btn_fn"], t["btn_fn_fg"]),
+            "clear": (t["btn_clear"], t["btn_clear_fg"]),
+        }
+        hover_map = {
+            "num": t["hover_num"], "op": t["hover_op"], "eq": t["hover_eq"], "fn": t["hover_fn"], "clear": "#ff6666"
+        }
+
+        for btn, kind in (self.std_buttons + self.sci_buttons):
+            bg, fg = color_map.get(kind, color_map["num"])
+            hover_color = hover_map.get(kind, t["hover_num"])
+            btn.configure(bg=bg, fg=fg, activebackground=hover_color, activeforeground=fg)
+
+        # 5. History Page
+        self.hist_hdr.configure(bg=t["bg"])
+        self.hist_title.configure(bg=t["bg"], fg=t["display_fg"])
+        self.hist_clear_btn.configure(bg=t["btn_clear"], fg=t["btn_clear_fg"])
+        self.hist_frame.configure(bg=t["history_bg"])
+        self.history_text.configure(bg=t["history_bg"], fg=t["history_fg"])
+        if self.current_page == "history": self._refresh_history()
+
+        # 6. Converter Page (FIXED VISIBILITY)
+        self.conv_title_lbl.configure(bg=t["bg"], fg=t["display_fg"])
+        self.conv_cat_frame.configure(bg=t["bg"])
+        self.conv_inp_row.configure(bg=t["bg"])
+        self.conv_val.configure(bg=t["display_bg"], fg=t["display_fg"], insertbackground=t["display_fg"])
+        self.conv_arrow.configure(bg=t["bg"], fg=t["display_fg"])
+        self.conv_res_lbl.configure(bg=t["bg"], fg=t["display_fg"])
+        self.conv_btn.configure(bg=t["btn_eq"], fg=t["btn_eq_fg"])
+        
+        for rb in self.conv_radios:
+            # We use 'selectcolor' to change the background of the button when clicked
+            # In dark mode, we want the text to stay light.
+            rb.configure(
+                bg=t["bg"], 
+                fg=t["tab_fg"], 
+                activebackground=t["hover_fn"],
+                activeforeground=t["display_fg"],
+                selectcolor=t["panel"]
+            )
+
+        # 7. TTK Combobox Styling (FIXED VISIBILITY)
+        self.style.theme_use('default')
+        # This fixes the Combobox entry field
+        self.style.configure("TCombobox", 
+                             fieldbackground=t["display_bg"], 
+                             background=t["btn_fn"], 
+                             foreground=t["display_fg"], 
+                             arrowcolor=t["display_fg"],
+                             bordercolor=t["border"])
+        self.style.map("TCombobox",
+            selectbackground=[("readonly", self.t["display_bg"])],
+            selectforeground=[("readonly", self.t["display_fg"])]
+)
+        self.root.option_add('*TCombobox*Listbox.background', t["display_bg"])
+        self.root.option_add('*TCombobox*Listbox.foreground', t["display_fg"])
+        self.root.option_add('*TCombobox*Listbox.selectBackground', t["tab_sel"])
+        self.root.option_add('*TCombobox*Listbox.selectForeground', t["bg"])
+        # 8. Re-style Tabs
+        self._style_tabs(self.current_page)
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = CalculatorApp(root)
+    root.mainloop()
