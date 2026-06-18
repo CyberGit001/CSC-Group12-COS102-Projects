@@ -1,7 +1,7 @@
 
 # CSC-Group 12 — COS 102 Python Projects
 
-This repository contains two Python desktop applications built by **CSC Group 12**: **CALCX**, an advanced graphical calculator, and **Quiz Forge**, a trivia quiz application. Since both projects were not presented live, this document is written to stand in for that walkthrough — covering not just what each app does, but how it's built internally.
+This repository contains two Python desktop applications built by **CSC Group 12**: **CALCX**, an advanced graphical calculator, and **Quiz Forge**, a trivia quiz application.This document covers the core functionalities and internal architectures of the two applications, providing a clear roadmap of both what the tools do and how they are engineered from the inside out.
 
 ## Group Members
 
